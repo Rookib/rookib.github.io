@@ -14,7 +14,35 @@
     "failed": 0,
     "skipped": 0
   },
-  "deviceTest": "新版尚待多开真机注入验证",
+  "deviceTest": {
+    "version": "0.1.2",
+    "os": "iOS 16.0.2 (20A380)",
+    "qqBuild": "9.3.50.604",
+    "installation": "TrollFools existing app-local dylib replacement",
+    "apps": [
+      {
+        "bundle": "com.tencent.mqq.12",
+        "active": true,
+        "scale": 0.85,
+        "fontScaleCalls": 1131,
+        "dimensionCalls": 32,
+        "centralScaleCalls": 54,
+        "freshReceipt": true,
+        "processAlive": true
+      },
+      {
+        "bundle": "com.tencent.mqq.13",
+        "active": true,
+        "scale": 0.85,
+        "fontScaleCalls": 172,
+        "dimensionCalls": 28,
+        "centralScaleCalls": 62,
+        "freshReceipt": true,
+        "processAlive": true
+      }
+    ],
+    "limits": "已验证两个多开的启动、插件状态与目标入口实际调用；未替代用户视觉确认、所有页面或长期稳定性验证。新版未在 iOS 17 重测。"
+  },
   "files": [
     {
       "path": "assets/downloads/qqcompact/0.1.2/QQCompact.dylib",
