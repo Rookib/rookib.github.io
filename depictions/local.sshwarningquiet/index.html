@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>RootHide SSH 提示静默 · Rookib</title><link rel="stylesheet" href="../../assets/depiction.css"></head><body><main><nav><a href="../../">← Rookib 软件源</a></nav><header><img src="../../assets/packages/local.sshwarningquiet.png" width="72" height="72" alt=""><div><h1>RootHide SSH 提示静默</h1><p>作者：Rookib</p></div></header><section><h2>描述</h2>
+<h3>主要功能</h3>
+<ul><li>仅隐藏 RootHide 管理器检测到 SSH Server 已安装时显示的卸载提示。</li></ul>
+<ul><li>精确匹配上游两种提示原文及当前语言对应译文，不影响其他检测警告。</li></ul>
+<ul><li>不修改 RootHide 黑名单、应用开关、SSH 服务或系统配置。</li></ul>
+<hr>
+<h3>兼容性</h3>
+<ul><li>适用于 RootHide 隐根环境，最低系统版本为 iOS 15.0。</li></ul>
+<ul><li>仅加载到 RootHide Manager（<code>com.roothide.manager</code>），不注入 SpringBoard 或其他应用。</li></ul>
+<ul><li>针对 iOS 17.3.1 / Relaxin 环境制作；依赖管理器当前内部提示接口，管理器更新后可能失效，尚待真机验证。</li></ul>
+<hr>
+<h3>使用说明</h3>
+<ul><li>安装后完全退出并重新打开 RootHide 管理器即可生效，没有设置页面。</li></ul>
+<ul><li>卸载后重新打开 RootHide 管理器，原提示会恢复。</li></ul>
+<ul><li>不需要为此更改 RootHide 黑名单设置。</li></ul>
+<hr>
+<h3>重要说明</h3>
+<ul><li>本插件只让提示静默，SSH 服务仍保持原状态。</li></ul>
+<ul><li>隐藏提示不会提升 SSH 安全性；请修改默认密码、优先使用密钥认证并限制访问网络。</li></ul>
+<ul><li>不需要 SSH 时，请另外关闭或卸载 SSH Server。</li></ul>
+<p class="row"><span>当前版本</span><strong>0.1.0</strong></p>
+<p class="row"><span>分类</span><strong>系统工具</strong></p>
+<p class="row"><span>作者</span><strong>Rookib</strong></p>
+</section>
+<section><h2>更新</h2>
+<h3>0.1.0</h3>
+<ul><li>首次发布。</li></ul>
+<ul><li>限定只在 RootHide 管理器中加载。</li></ul>
+<ul><li>支持精确识别两种空格拼写及本地化后的 SSH 安装提示。</li></ul>
+<ul><li>其他检测提示继续使用管理器原有逻辑。</li></ul>
+<ul><li>完成 RootHide arm64 / arm64e 签名与依赖整理。</li></ul>
+</section><footer>源内展示作者统一为 Rookib；原始许可与版权声明保留在软件包及源码中。</footer></main></body></html>

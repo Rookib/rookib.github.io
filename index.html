@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#090b11">
     <meta name="color-scheme" content="dark">
-    <meta name="description" content="Eason — 面向越狱 iOS 设备的软件源，支持 Sileo、Zebra、Cydia 与 Installer。">
-    <meta property="og:title" content="Eason">
+    <meta name="description" content="Rookib — 面向越狱 iOS 设备的软件源，支持 Sileo、Zebra、Cydia 与 Installer。">
+    <meta property="og:title" content="Rookib">
     <meta property="og:description" content="一个简洁、可靠的 iOS 越狱软件源。">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://rookib.github.io/">
     <meta property="og:image" content="https://rookib.github.io/assets/avatar.png">
-    <title>Eason</title>
+    <title>Rookib</title>
     <link rel="icon" href="assets/avatar.png" type="image/png">
     <link rel="apple-touch-icon" href="assets/avatar.png">
     <style>
@@ -842,6 +842,11 @@
           animation-iteration-count: 1 !important;
         }
       }
+      .catalog-link { display: block; color: #9ed5ff; margin-top: 14px; font-size: 15px; }
+      .repo-banner { margin: 0 auto 40px; max-width: 780px; }
+      .repo-banner img { display: block; width: 100%; height: auto; border-radius: 20px; }
+      .repo-banner figcaption { margin-top: 10px; text-align: right; font-size: 12px; color: #9daac2; }
+      .repo-banner a { color: inherit; }
     </style>
   </head>
   <body>
@@ -849,11 +854,11 @@
 
     <header class="site-header">
       <nav class="nav" aria-label="主导航">
-        <a class="brand" href="./" aria-label="Eason 首页">
+        <a class="brand" href="./" aria-label="Rookib 首页">
           <img src="assets/avatar.png" alt="" width="42" height="42">
           <span class="brand-copy">
-            <span class="brand-name">Eason</span>
-            <span class="brand-kind">iOS APT Repository</span>
+            <span class="brand-name">Rookib</span>
+            <span class="brand-kind">iOS 中文软件源</span>
           </span>
         </a>
         <a class="github-link" href="https://github.com/Rookib/rookib.github.io" aria-label="在 GitHub 查看软件源">
@@ -869,8 +874,8 @@
       <section class="hero" aria-labelledby="page-title">
         <div class="intro">
           <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span>软件源已上线</p>
-          <h1 id="page-title"><span>Eason</span></h1>
-          <p class="lead">一个简洁、可靠的 iOS 越狱软件源。选择你正在使用的包管理器，一步添加并保持更新。</p>
+          <h1 id="page-title"><span>Rookib</span></h1>
+          <p class="lead">一个简洁、可靠的 iOS 越狱软件源。选择你正在使用的包管理器，一步添加并保持更新。<a class="catalog-link" href="packages.html">浏览插件与中文详情 →</a></p>
           <div class="trust-row" aria-label="软件源特点">
             <span class="trust-item">
               <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m7 12 3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Z" stroke="currentColor" stroke-width="1.7"/></svg>
@@ -890,17 +895,17 @@
             <ul class="architecture-list">
               <li class="architecture-item">
                 <span class="architecture-dot" aria-hidden="true"></span>
-                <span class="architecture-name">Rootful</span>
+                <span class="architecture-name">传统 Rootful</span>
                 <code class="architecture-code">iphoneos-arm</code>
               </li>
               <li class="architecture-item">
                 <span class="architecture-dot" aria-hidden="true"></span>
-                <span class="architecture-name">Rootless</span>
+                <span class="architecture-name">无根 Rootless</span>
                 <code class="architecture-code">iphoneos-arm64</code>
               </li>
               <li class="architecture-item">
                 <span class="architecture-dot" aria-hidden="true"></span>
-                <span class="architecture-name">rootHide</span>
+                <span class="architecture-name">隐根 RootHide</span>
                 <code class="architecture-code">iphoneos-arm64e</code>
               </li>
             </ul>
@@ -994,12 +999,16 @@
           </li>
         </ol>
       </section>
+      <figure class="repo-banner">
+        <img src="assets/repo-featured-banner.png" width="1280" height="640" loading="lazy" alt="Tsangbaby 源动漫横幅与原图说明">
+        <figcaption>横幅来源：<a href="https://tsangbaby.github.io/">Tsangbaby 软件源</a></figcaption>
+      </figure>
     </main>
 
     <footer class="site-footer">
       <div class="footer-inner">
-        <p>© <span id="year">2026</span> Eason</p>
-        <p>Hosted on <a href="https://pages.github.com/">GitHub Pages</a> · No tracking</p>
+        <p>© <span id="year">2026</span> Rookib</p>
+        <p>托管于 <a href="https://pages.github.com/">GitHub Pages</a> · 无跟踪统计</p>
       </div>
     </footer>
 

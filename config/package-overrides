@@ -1,42 +1,136 @@
-cn.llld.biaoji Description 截图标记 1.6 静态主 Scene 修复的 RootHide 版，支持截图标注、保存与复制。
+cn.llld.biaoji Name 截图标记
+cn.llld.biaoji Description 截图标注、保存与复制，包含静态主场景修复。
+cn.llld.biaoji Section 截图工具
+cn.llld.biaoji Author Rookib
+cn.llld.biaoji Maintainer Rookib
+cn.llld.biaoji Icon https://rookib.github.io/assets/packages/cn.llld.biaoji.png
+cn.llld.biaoji Depiction https://rookib.github.io/depictions/cn.llld.biaoji/
 cn.llld.biaoji SileoDepiction https://rookib.github.io/depictions/cn.llld.biaoji.json
-cn.local.hellokbai.longshot.bridge Description 在 Hello 键盘侠截图操作栏中加入长截图与拼图功能。
+cn.local.hellokbai.longshot.bridge Name Hello 键盘侠 · 长截图与拼图
+cn.local.hellokbai.longshot.bridge Description 为 Hello 键盘侠截图操作栏添加长截图与拼图功能。
+cn.local.hellokbai.longshot.bridge Section 截图工具
+cn.local.hellokbai.longshot.bridge Author Rookib
+cn.local.hellokbai.longshot.bridge Maintainer Rookib
+cn.local.hellokbai.longshot.bridge Icon https://rookib.github.io/assets/packages/cn.local.hellokbai.longshot.bridge.png
+cn.local.hellokbai.longshot.bridge Depiction https://rookib.github.io/depictions/cn.local.hellokbai.longshot.bridge/
 cn.local.hellokbai.longshot.bridge SileoDepiction https://rookib.github.io/depictions/cn.local.hellokbai.longshot.bridge.json
-cn.local.stayshot.longscreenshot.engine Description 为 Hello 长截图桥接提供按需调用的 StayShot 1.4.9 长截图引擎。
+cn.local.stayshot.longscreenshot.engine Name StayShot 长截图引擎
+cn.local.stayshot.longscreenshot.engine Description 为 Hello 长截图桥接提供按需调用的长截图引擎。
+cn.local.stayshot.longscreenshot.engine Section 截图工具
+cn.local.stayshot.longscreenshot.engine Author Rookib
+cn.local.stayshot.longscreenshot.engine Maintainer Rookib
+cn.local.stayshot.longscreenshot.engine Icon https://rookib.github.io/assets/packages/cn.local.stayshot.longscreenshot.engine.png
+cn.local.stayshot.longscreenshot.engine Depiction https://rookib.github.io/depictions/cn.local.stayshot.longscreenshot.engine/
 cn.local.stayshot.longscreenshot.engine SileoDepiction https://rookib.github.io/depictions/cn.local.stayshot.longscreenshot.engine.json
-com.25mao.leftPan Description 为应用加入左滑返回手势，并修复微信 8.0.75 部分页面的手势冲突。
-com.25mao.leftPan SileoDepiction https://rookib.github.io/depictions/com.25mao.leftPan.json
-com.eason.fivegadvanced Description VPN 状态栏上色、隐藏 VPN、5GA 与静音显示增强，支持 iOS 16–17。
-com.eason.fivegadvanced SileoDepiction https://rookib.github.io/depictions/com.eason.fivegadvanced.json
-com.eason.folderdockglass Name FolderDockGlass (RootHide)
-com.eason.folderdockglass Description RootHide edition. Adds a glass effect only to the Dock, folder icons, opened folders, and Lock Screen notifications. No settings required; install with Sileo or Zebra, then perform a userspace reboot.
-com.eason.folderdockglass Section Tweaks
-com.eason.folderdockglass SileoDepiction https://rookib.github.io/depictions/com.eason.folderdockglass.json
-com.eason.shortcutsintentguard Description 修复 iOS 16 快捷指令因 Visual Intelligence App Intent 元数据导致的闪退。
-com.eason.shortcutsintentguard SileoDepiction https://rookib.github.io/depictions/com.eason.shortcutsintentguard.json
-com.eason.yikey Description 为 iPhone 14 和 iPhone 15 Pro 系列提供按键截图与图片翻译功能。
-com.eason.yikey SileoDepiction https://rookib.github.io/depictions/com.eason.yikey.json
-com.eason.wechatku Description 修复闪退至最新版微信。
-com.eason.wechatku Section 微信插件
-com.eason.wechatku SileoDepiction https://rookib.github.io/depictions/com.eason.wechatku.json
-com.eason.misakahelper Description 修复至最新版微信。
-com.eason.misakahelper Section 微信插件
-com.eason.misakahelper SileoDepiction https://rookib.github.io/depictions/com.eason.misakahelper.json
-local.relaxin.snapshotfix Description 修复 iOS 17.3.1 环境下 Relaxin 白巨魔应用启动黑屏问题，针对被系统拒绝的第三方 Storyboard 应用按版本或安装状态自动重试一次。由真皮提供思路解决。
-local.relaxin.snapshotfix SileoDepiction https://rookib.github.io/depictions/local.relaxin.snapshotfix.json
-local.sshwarningquiet Description 仅隐藏 RootHide 管理器中的“已安装 SSH Server”提示，不会关闭 SSH 服务或修改 SSH 配置。
-local.sshwarningquiet Section System
-local.sshwarningquiet SileoDepiction https://rookib.github.io/depictions/local.sshwarningquiet.json
-com.binglan.kongzhidiy Description 控制中心中心美化
-com.binglan.kongzhidiy Section Tweaks
-com.binglan.kongzhidiy SileoDepiction https://rookib.github.io/depictions/com.binglan.kongzhidiy.json
-com.binglanqjsy.deb Description 让简单截图，拥有更多可能。
-com.binglanqjsy.deb Section Tweaks
-com.binglanqjsy.deb SileoDepiction https://rookib.github.io/depictions/com.binglanqjsy.deb.json
-cn.zqbb.cocoatop64.relaxin Description Process Viewer For IOS GUI 内置中文版
-cn.zqbb.cocoatop64.relaxin Section Utilities
+cn.zqbb.cocoatop64.relaxin Name CocoaTop64 中文版
+cn.zqbb.cocoatop64.relaxin Description 查看 iOS 进程与资源使用情况，支持复制进程名及打开文件路径。
+cn.zqbb.cocoatop64.relaxin Section 系统工具
+cn.zqbb.cocoatop64.relaxin Author Rookib
+cn.zqbb.cocoatop64.relaxin Maintainer Rookib
+cn.zqbb.cocoatop64.relaxin Icon https://rookib.github.io/assets/packages/cn.zqbb.cocoatop64.relaxin.png
+cn.zqbb.cocoatop64.relaxin Depiction https://rookib.github.io/depictions/cn.zqbb.cocoatop64.relaxin/
 cn.zqbb.cocoatop64.relaxin SileoDepiction https://rookib.github.io/depictions/cn.zqbb.cocoatop64.relaxin.json
-com.eason.wcdisablehotupdates Description Silent WeChat hot-update execution blocker for RootHide. Automatically locates supported updater entry points without a version whitelist. No plugin-list entry and no launch popup. Logs remain local to WeChat. Static discovery verified on 8.0.75.33, 8.0.76.36 and 8.0.78.34. Runtime interception verified on 8.0.78.34. Unknown implementations are not patched.
-com.eason.wcdisablehotupdates Section Tweaks
-com.eason.wcdisablehotupdates SileoDepiction https://rookib.github.io/depictions/com.eason.wcdisablehotupdates.json
+com.25mao.leftPan Name Hello Left 左滑返回
+com.25mao.leftPan Description 提供跟手左滑返回，修复设置插件分类中外层手势抢占内层返回的问题。
+com.25mao.leftPan Section 系统插件
+com.25mao.leftPan Author Rookib
+com.25mao.leftPan Maintainer Rookib
+com.25mao.leftPan Icon https://rookib.github.io/assets/packages/com.25mao.leftPan.png
+com.25mao.leftPan Depiction https://rookib.github.io/depictions/com.25mao.leftPan/
+com.25mao.leftPan SileoDepiction https://rookib.github.io/depictions/com.25mao.leftPan.json
+com.binglan.kongzhidiy Name CCPrimeX 控制中心美化
+com.binglan.kongzhidiy Description 调整控制中心外观、布局和图标素材。
+com.binglan.kongzhidiy Section 界面美化
+com.binglan.kongzhidiy Author Rookib
+com.binglan.kongzhidiy Maintainer Rookib
+com.binglan.kongzhidiy Icon https://rookib.github.io/assets/packages/com.binglan.kongzhidiy.png
+com.binglan.kongzhidiy Depiction https://rookib.github.io/depictions/com.binglan.kongzhidiy/
+com.binglan.kongzhidiy SileoDepiction https://rookib.github.io/depictions/com.binglan.kongzhidiy.json
+com.binglanqjsy.deb Name 全局水印 Pro
+com.binglanqjsy.deb Description 为截图添加水印与个性化显示效果。
+com.binglanqjsy.deb Section 截图工具
+com.binglanqjsy.deb Author Rookib
+com.binglanqjsy.deb Maintainer Rookib
+com.binglanqjsy.deb Icon https://rookib.github.io/assets/packages/com.binglanqjsy.deb.png
+com.binglanqjsy.deb Depiction https://rookib.github.io/depictions/com.binglanqjsy.deb/
+com.binglanqjsy.deb SileoDepiction https://rookib.github.io/depictions/com.binglanqjsy.deb.json
+com.eason.fivegadvanced Name Hello Eason 状态栏增强
+com.eason.fivegadvanced Description VPN 状态上色、隐藏 VPN、5GA 与静音显示增强，适配 iOS 16–17。
+com.eason.fivegadvanced Section 系统插件
+com.eason.fivegadvanced Author Rookib
+com.eason.fivegadvanced Maintainer Rookib
+com.eason.fivegadvanced Icon https://rookib.github.io/assets/packages/com.eason.fivegadvanced.png
+com.eason.fivegadvanced Depiction https://rookib.github.io/depictions/com.eason.fivegadvanced/
+com.eason.fivegadvanced SileoDepiction https://rookib.github.io/depictions/com.eason.fivegadvanced.json
+com.eason.folderdockglass Name FolderDockGlass 玻璃效果
+com.eason.folderdockglass Description RootHide 隐根版，为程序坞、文件夹和锁屏通知添加玻璃效果，无需独立设置。
+com.eason.folderdockglass Section 界面美化
+com.eason.folderdockglass Author Rookib
+com.eason.folderdockglass Maintainer Rookib
+com.eason.folderdockglass Icon https://rookib.github.io/assets/packages/com.eason.folderdockglass.png
+com.eason.folderdockglass Depiction https://rookib.github.io/depictions/com.eason.folderdockglass/
+com.eason.folderdockglass SileoDepiction https://rookib.github.io/depictions/com.eason.folderdockglass.json
+com.eason.misakahelper Name MisakaHelper 微信助手
+com.eason.misakahelper Description 提供微信消息与界面增强；本地来源标注的微信兼容性仍需真机核验。
+com.eason.misakahelper Section 微信插件
+com.eason.misakahelper Author Rookib
+com.eason.misakahelper Maintainer Rookib
+com.eason.misakahelper Icon https://rookib.github.io/assets/packages/com.eason.misakahelper.png
+com.eason.misakahelper Depiction https://rookib.github.io/depictions/com.eason.misakahelper/
+com.eason.misakahelper SileoDepiction https://rookib.github.io/depictions/com.eason.misakahelper.json
+com.eason.shortcutsintentguard Name 快捷指令闪退修复
+com.eason.shortcutsintentguard Description 修复 iOS 16 快捷指令受 Visual Intelligence App Intent 元数据影响的闪退。
+com.eason.shortcutsintentguard Section 系统工具
+com.eason.shortcutsintentguard Author Rookib
+com.eason.shortcutsintentguard Maintainer Rookib
+com.eason.shortcutsintentguard Icon https://rookib.github.io/assets/packages/com.eason.shortcutsintentguard.png
+com.eason.shortcutsintentguard Depiction https://rookib.github.io/depictions/com.eason.shortcutsintentguard/
+com.eason.shortcutsintentguard SileoDepiction https://rookib.github.io/depictions/com.eason.shortcutsintentguard.json
 com.eason.wcdisablehotupdates Name 微信禁用热更新
+com.eason.wcdisablehotupdates Description 拦截已识别的微信热更新；2.7 修复部分插件环境下微信 8.0.78 服务号页面闪退。
+com.eason.wcdisablehotupdates Section 微信插件
+com.eason.wcdisablehotupdates Author Rookib
+com.eason.wcdisablehotupdates Maintainer Rookib
+com.eason.wcdisablehotupdates Icon https://rookib.github.io/assets/packages/com.eason.wcdisablehotupdates.png
+com.eason.wcdisablehotupdates Depiction https://rookib.github.io/depictions/com.eason.wcdisablehotupdates/
+com.eason.wcdisablehotupdates SileoDepiction https://rookib.github.io/depictions/com.eason.wcdisablehotupdates.json
+com.eason.wechatku Name Wechatku 爱疯助手
+com.eason.wechatku Description 提供微信消息、媒体与界面增强；升级微信后的兼容性需单独核验。
+com.eason.wechatku Section 微信插件
+com.eason.wechatku Author Rookib
+com.eason.wechatku Maintainer Rookib
+com.eason.wechatku Icon https://rookib.github.io/assets/packages/com.eason.wechatku.png
+com.eason.wechatku Depiction https://rookib.github.io/depictions/com.eason.wechatku/
+com.eason.wechatku SileoDepiction https://rookib.github.io/depictions/com.eason.wechatku.json
+com.eason.yikey Name Hello Action 按键增强
+com.eason.yikey Description 为 iPhone 14 系列和 iPhone 15 Pro 系列提供按键截图与图片翻译。
+com.eason.yikey Section 系统插件
+com.eason.yikey Author Rookib
+com.eason.yikey Maintainer Rookib
+com.eason.yikey Icon https://rookib.github.io/assets/packages/com.eason.yikey.png
+com.eason.yikey Depiction https://rookib.github.io/depictions/com.eason.yikey/
+com.eason.yikey SileoDepiction https://rookib.github.io/depictions/com.eason.yikey.json
+io.github.suckdrygod.touchdan Name Touch-Dan
+io.github.suckdrygod.touchdan Description 触点与滑动轨迹显示，提供录屏模式、颜色、大小及图片效果设置。
+io.github.suckdrygod.touchdan Section 界面美化
+io.github.suckdrygod.touchdan Author Rookib
+io.github.suckdrygod.touchdan Maintainer Rookib
+io.github.suckdrygod.touchdan Icon https://rookib.github.io/assets/packages/io.github.suckdrygod.touchdan.png
+io.github.suckdrygod.touchdan Depiction https://rookib.github.io/depictions/io.github.suckdrygod.touchdan/
+io.github.suckdrygod.touchdan SileoDepiction https://rookib.github.io/depictions/io.github.suckdrygod.touchdan.json
+local.relaxin.snapshotfix Name Relaxin 应用黑屏修复
+local.relaxin.snapshotfix Description 修复 Relaxin 启动快照兼容问题；仅适用于 iOS 17.3.1，0.1.4 为待真机注入验证的测试版。
+local.relaxin.snapshotfix Section 系统工具
+local.relaxin.snapshotfix Author Rookib
+local.relaxin.snapshotfix Maintainer Rookib
+local.relaxin.snapshotfix Icon https://rookib.github.io/assets/packages/local.relaxin.snapshotfix.png
+local.relaxin.snapshotfix Depiction https://rookib.github.io/depictions/local.relaxin.snapshotfix/
+local.relaxin.snapshotfix SileoDepiction https://rookib.github.io/depictions/local.relaxin.snapshotfix.json
+local.sshwarningquiet Name RootHide SSH 提示静默
+local.sshwarningquiet Description 仅隐藏 RootHide 管理器的 SSH 安装提示，不改变 SSH 服务与配置。
+local.sshwarningquiet Section 系统工具
+local.sshwarningquiet Author Rookib
+local.sshwarningquiet Maintainer Rookib
+local.sshwarningquiet Icon https://rookib.github.io/assets/packages/local.sshwarningquiet.png
+local.sshwarningquiet Depiction https://rookib.github.io/depictions/local.sshwarningquiet/
+local.sshwarningquiet SileoDepiction https://rookib.github.io/depictions/local.sshwarningquiet.json

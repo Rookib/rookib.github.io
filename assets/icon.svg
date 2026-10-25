@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
-  <title id="title">Eason</title>
-  <desc id="desc">A violet repository icon with a package and download arrow.</desc>
+  <title id="title">Rookib</title>
+  <desc id="desc">源内备用软件包图形图标。</desc>
   <defs>
     <linearGradient id="bg" x1="12" y1="8" x2="82" y2="90" gradientUnits="userSpaceOnUse">
       <stop stop-color="#C6AEFF"/>

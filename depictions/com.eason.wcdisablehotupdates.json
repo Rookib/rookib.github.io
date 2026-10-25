@@ -1,80 +1,100 @@
 {
-  "class" : "DepictionTabView",
-  "minVersion" : "0.4",
-  "tabs" : [
+  "class": "DepictionTabView",
+  "minVersion": "0.4",
+  "tabs": [
     {
-      "class" : "DepictionStackView",
-      "tabname" : "描述",
-      "views" : [
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
         {
-          "class" : "DepictionHeaderView",
-          "title" : "主要功能",
-          "useBoldText" : true
+          "class": "DepictionHeaderView",
+          "title": "主要功能",
+          "useBoldText": true
         },
         {
-          "class" : "DepictionMarkdownView",
-          "markdown" : "- 没有闪退问题的使用Netskao的版本\n\n- 使用某些插件导致公众号闪退问题的可以使用此版本",
-          "useRawFormat" : false,
-          "useSpacing" : true
+          "class": "DepictionMarkdownView",
+          "markdown": "- 静默拦截已识别的微信热更新执行入口，不新增插件列表入口或启动弹窗。\n\n- 2.7 同时处理 Flutter 配套更新页面，修复部分插件环境下微信 8.0.78 服务号闪退。\n\n- 不删除聊天记录或缓存文件；日志保留在微信本地。\n\n- 未识别的更新实现不会被强行修改。",
+          "useRawFormat": false,
+          "useSpacing": true
         },
         {
-          "class" : "DepictionSeparatorView"
+          "class": "DepictionSeparatorView"
         },
         {
-          "class" : "DepictionHeaderView",
-          "title" : "兼容性",
-          "useBoldText" : true
+          "class": "DepictionHeaderView",
+          "title": "兼容性",
+          "useBoldText": true
         },
         {
-          "class" : "DepictionMarkdownView",
-          "markdown" : "- control 声明为 RootHide 软件包，架构字段为 `iphoneos-arm64e",
-          "useRawFormat" : false,
-          "useSpacing" : true
+          "class": "DepictionMarkdownView",
+          "markdown": "- 适用于 RootHide 隐根环境。\n\n- 2.7 已有 iOS 16.0.2 / 微信 8.0.78.34 用户实测记录，iOS 17.3.1 尚未验证。\n\n- 旧版 2.6 曾对微信 8.0.75.33、8.0.76.36、8.0.78.34 完成静态定位，并在 8.0.78.34 验证运行时拦截；这些记录不能替代 2.7 在其他系统上的实测。",
+          "useRawFormat": false,
+          "useSpacing": true
         },
         {
-          "class" : "DepictionSeparatorView"
+          "class": "DepictionSeparatorView"
         },
         {
-          "class" : "DepictionHeaderView",
-          "title" : "使用说明",
-          "useBoldText" : true
+          "class": "DepictionHeaderView",
+          "title": "使用说明",
+          "useBoldText": true
         },
         {
-          "class" : "DepictionMarkdownView",
-          "markdown" : "- 安装后请按软件包提示注销或重启用户空间。\n\n- 更新前建议备份重要数据。",
-          "useRawFormat" : false,
-          "useSpacing" : true
+          "class": "DepictionMarkdownView",
+          "markdown": "- 安装后请按软件包提示注销或重启用户空间。\n\n- 更新前建议备份重要数据。",
+          "useRawFormat": false,
+          "useSpacing": true
         },
         {
-          "class" : "DepictionTableTextView",
-          "text" : "2.6-rh1",
-          "title" : "当前版本"
+          "class": "DepictionTableTextView",
+          "text": "2.7",
+          "title": "当前版本"
         },
         {
-          "class" : "DepictionTableTextView",
-          "text" : "Tweaks",
-          "title" : "分类"
+          "class": "DepictionTableTextView",
+          "text": "微信插件",
+          "title": "分类"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "作者",
+          "text": "Rookib"
         }
       ]
     },
     {
-      "class" : "DepictionStackView",
-      "tabname" : "更新",
-      "views" : [
+      "class": "DepictionStackView",
+      "tabname": "更新",
+      "views": [
         {
-          "class" : "DepictionSubheaderView",
-          "title" : "2.6-rh1",
-          "useBoldText" : true,
-          "useBottomMargin" : false
+          "class": "DepictionSubheaderView",
+          "title": "2.7",
+          "useBoldText": true,
+          "useBottomMargin": false
         },
         {
-          "class" : "DepictionMarkdownView",
-          "markdown" : "- 发布 HotUpdates 2.6\n\n- 更新 RootHide 软件包。",
-          "useRawFormat" : false,
-          "useSpacing" : true
+          "class": "DepictionMarkdownView",
+          "markdown": "- 修复原生热更新被拦截后，Flutter 仍加载配套更新页面引发的微信 8.0.78 服务号闪退。\n\n- 同时拦截 Flutter 缓存更新选择，并移除对应热更新启动参数。\n\n- 不删除聊天记录或缓存文件。\n\n- 已有 iOS 16.0.2 / 微信 8.0.78.34 用户实测记录；iOS 17.3.1 尚未验证。",
+          "useSpacing": true,
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "2.6",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 发布 HotUpdates 2.6\n\n- 更新 RootHide 软件包。",
+          "useRawFormat": false,
+          "useSpacing": true
         }
       ]
     }
   ],
-  "tintColor" : "#20B8BD"
+  "tintColor": "#348CD1"
 }
