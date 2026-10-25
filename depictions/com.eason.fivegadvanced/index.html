@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Hello Eason 状态栏增强 · Rookib</title><link rel="stylesheet" href="../../assets/depiction.css"></head><body><main><nav><a href="../../">← Rookib 软件源</a></nav><header><img src="../../assets/packages/com.eason.fivegadvanced.png" width="72" height="72" alt=""><div><h1>Hello Eason 状态栏增强</h1><p>作者：Rookib</p></div></header><section><h2>描述</h2>
+<h3>主要功能</h3>
+<ul><li>根据真实 VPN 状态，为 Wi‑Fi 或蜂窝网络制式上色。</li></ul>
+<ul><li>浅色模式与深色模式可以分别选择颜色。</li></ul>
+<ul><li>颜色指示、反转指示、隐藏 VPN 图标和 5GA 显示均为独立开关。</li></ul>
+<ul><li>VPN 开启并注销 SpringBoard 后，使用系统原生 VPN 胶囊完成恢复过渡。</li></ul>
+<ul><li>在前台应用中开启或关闭 VPN 时，颜色会立即更新。</li></ul>
+<ul><li>提供静音状态栏图标及“静音模式”控制中心模组。</li></ul>
+<hr>
+<h3>机型适配</h3>
+<ul><li><strong>iPhone 14 系列 · iOS 16</strong>：补充静音状态栏图标，并提供“静音模式”控制中心模组。</li></ul>
+<ul><li><strong>iPhone 15 系列 · iOS 17</strong>：使用系统原生静音图标，不重复加载补充图标或控制中心模组。</li></ul>
+<hr>
+<h3>使用说明</h3>
+<ul><li>静音显示、VPN 图标显示与 VPN 颜色指示互相独立。</li></ul>
+<ul><li>“隐藏 VPN”只隐藏状态栏图标，不会断开 VPN。</li></ul>
+<ul><li>Wi‑Fi 下为 Wi‑Fi 标志上色；蜂窝网络下为 4G、5G 或 LTE 制式文字上色。</li></ul>
+<ul><li>插件仅改变显示效果，不会修改真实 VPN、蜂窝网络或静音状态。</li></ul>
+<p class="row"><span>当前版本</span><strong>2.6.7</strong></p>
+<p class="row"><span>支持系统</span><strong>iOS 16–17</strong></p>
+<p class="row"><span>作者</span><strong>Rookib</strong></p>
+</section>
+<section><h2>更新</h2>
+<h3>2.6.7</h3>
+<ul><li>新增 Sileo 原生“描述 / 更新”双标签页面。</li></ul>
+<ul><li>按主要功能、机型适配和使用说明重新整理内容。</li></ul>
+<ul><li>普通软件包详情改为简洁摘要。</li></ul>
+<ul><li>本次仅调整展示排版，功能逻辑与 2.6.6 相同。</li></ul>
+<hr>
+<h3>2.6.6</h3>
+<ul><li>修复在前台应用中开启或关闭圈 X 后，VPN 颜色不能立即更新的问题。</li></ul>
+<ul><li>VPN 状态变化时只重绘现有状态栏视图，不重放状态数据。</li></ul>
+<ul><li>保持系统原生重启 VPN 胶囊流程不变。</li></ul>
+<hr>
+<h3>2.6.5</h3>
+<ul><li>中文化软件包详情。</li></ul>
+<ul><li>补充主要功能和机型区别说明。</li></ul>
+<hr>
+<h3>2.6.4</h3>
+<ul><li>对照 SingleVPN 原版数据流程处理 VPN 状态。</li></ul>
+<ul><li>保留真实 <code>vpnEntry</code>，由 SpringBoard 显示并关闭系统原生 VPN 胶囊。</li></ul>
+<ul><li>不使用假弹窗、状态服务器重放或人工动画计时。</li></ul>
+</section><footer>源内展示作者统一为 Rookib；原始许可与版权声明保留在软件包及源码中。</footer></main></body></html>

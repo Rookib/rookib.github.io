@@ -1,0 +1,84 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "tintColor": "#F52F62",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "主要功能",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 显示屏幕触点和滑动轨迹，可选择仅在录屏期间显示。\n\n- 调节填充颜色、边框颜色、不透明度、填充大小、边框宽度与圆角半径。\n\n- 调节动画时长及抬起缩放，支持跟踪、笔刷、变形和图片效果。\n\n- 支持选择 Emoji 或自定义图片，并设置图片自动旋转。",
+          "useSpacing": true,
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "界面与图标",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 恢复 Touch-Viz 4.2 原版设置分组、按钮布局与中文标签。\n\n- 名称为 Touch-Dan，版本为 4.2，继续使用原版图标。\n\n- 保留上游许可与版权声明。",
+          "useSpacing": true,
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "兼容性",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 构建目标为 iOS 16.0 及以上，分别提供无根 Rootless 与隐根 RootHide 安装包。\n\n- 请按实际越狱环境选择安装包；无根包不能直接当作隐根包使用。\n\n- 本次 4.2 尚未完成 iOS 16/17 全部真机验证，模拟器界面核验不等同于真机注入验证。",
+          "useSpacing": true,
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "资源存储",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 隐根版资源与运行数据使用越狱隐根目录。\n\n- 保留 RootHide 路径保护，避免把插件资源写入系统 `/var/tmp`。",
+          "useSpacing": true,
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "当前版本",
+          "text": "4.2"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "作者",
+          "text": "Rookib"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "4.2",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 按原版 4.2 恢复设置页面和按钮布局。\n\n- 保留原图标，统一中文说明与 Touch-Dan 品牌名称。\n\n- 分别构建 Rootless 与 RootHide 安装包，保留隐根资源存储保护。",
+          "useSpacing": true,
+          "useRawFormat": false
+        }
+      ]
+    }
+  ]
+}

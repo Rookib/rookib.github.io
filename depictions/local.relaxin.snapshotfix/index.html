@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Relaxin 应用黑屏修复 · Rookib</title><link rel="stylesheet" href="../../assets/depiction.css"></head><body><main><nav><a href="../../">← Rookib 软件源</a></nav><header><img src="../../assets/packages/local.relaxin.snapshotfix.png" width="72" height="72" alt=""><div><h1>Relaxin 应用黑屏修复</h1><p>作者：Rookib</p></div></header><section><h2>描述</h2>
+<h3>主要功能</h3>
+<ul><li>修复 iOS 17.3.1 SpringBoard 启动快照兼容问题。</li></ul>
+<ul><li>当第三方 Storyboard 应用被记录为无效启动图时，清理当前拒绝状态并自动重试。</li></ul>
+<ul><li>每个应用版本或每次安装最多自动重试一次，避免持续重置。</li></ul>
+<ul><li>所需系统接口不存在或运行时结构不匹配时会停止处理，不强行修改状态。</li></ul>
+<ul><li>0.1.4 增加 CocoaTop 和 RootHide 启动图缺失、黑屏时的显示回退。</li></ul>
+<hr>
+<h3>兼容性</h3>
+<ul><li>仅适用于 iOS <code>17.3.1</code>。</li></ul>
+<ul><li>适用于 RootHide。</li></ul>
+<ul><li>插件加载于 SpringBoard；其他 iOS 版本会保持停用。</li></ul>
+<ul><li>0.1.4 仅支持 iOS 17.3.1，属于待真机验证的测试版。</li></ul>
+<hr>
+<h3>使用说明</h3>
+<ul><li>安装后请注销或重启用户空间。</li></ul>
+<ul><li>本插件针对 Relaxin 白巨魔环境下第三方 Storyboard 应用的启动黑屏。</li></ul>
+<ul><li>若自动重试后仍然黑屏，插件不会对同一应用版本进行无限重复重置。</li></ul>
+<p class="row"><span>当前版本</span><strong>0.1.4</strong></p>
+<p>由真皮提供思路解决。</p>
+<p class="row"><span>作者</span><strong>Rookib</strong></p>
+</section>
+<section><h2>更新</h2>
+<h3>0.1.4</h3>
+<ul><li>为 CocoaTop 和 RootHide 增加启动图缺失或黑屏时的显示回退。</li></ul>
+<ul><li>继续严格限定 iOS 17.3.1，保留原有启动快照兼容处理。</li></ul>
+<ul><li>本版为真机测试版，尚未完成实际注入验证。</li></ul>
+<hr>
+<h3>0.1.3</h3>
+<ul><li>将补丁范围严格限定为 iOS 17.3.1。</li></ul>
+<ul><li>检测第三方 Storyboard 应用的启动快照拒绝状态。</li></ul>
+<ul><li>每个应用版本或安装只允许一次自动恢复重试。</li></ul>
+<ul><li>缺少所需系统接口或运行时结构不匹配时安全停用。</li></ul>
+</section><footer>源内展示作者统一为 Rookib；原始许可与版权声明保留在软件包及源码中。</footer></main></body></html>

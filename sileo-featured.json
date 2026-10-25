@@ -1,10 +1,10 @@
 {
   "class": "FeaturedBannersView",
-  "itemSize": "{390, 185}",
+  "itemSize": "{390, 195}",
   "itemCornerRadius": 12,
   "banners": [
     {
-      "url": "https://rookib.github.io/assets/repo-featured-banner.jpg",
+      "url": "https://rookib.github.io/assets/repo-featured-banner.png",
       "title": "",
       "displayText": false,
       "hideShadow": true

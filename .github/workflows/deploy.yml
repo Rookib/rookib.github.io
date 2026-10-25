@@ -3,12 +3,14 @@ name: Build and deploy jailbreak repository
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 
 permissions: {}
 
 concurrency:
-  group: pages
+  group: pages-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
@@ -32,6 +34,7 @@ jobs:
         run: bash scripts/build-repo.sh
 
       - name: Configure GitHub Pages
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
         uses: actions/configure-pages@v5
 
       - name: Upload Pages artifact
@@ -40,6 +43,7 @@ jobs:
           path: _site
 
   deploy:
+    if: github.ref == 'refs/heads/main' && (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
     permissions:
       pages: write
       id-token: write

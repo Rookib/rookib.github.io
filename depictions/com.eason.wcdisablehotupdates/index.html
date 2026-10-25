@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>微信禁用热更新 · Rookib</title><link rel="stylesheet" href="../../assets/depiction.css"></head><body><main><nav><a href="../../">← Rookib 软件源</a></nav><header><img src="../../assets/packages/com.eason.wcdisablehotupdates.png" width="72" height="72" alt=""><div><h1>微信禁用热更新</h1><p>作者：Rookib</p></div></header><section><h2>描述</h2>
+<h3>主要功能</h3>
+<ul><li>静默拦截已识别的微信热更新执行入口，不新增插件列表入口或启动弹窗。</li></ul>
+<ul><li>2.7 同时处理 Flutter 配套更新页面，修复部分插件环境下微信 8.0.78 服务号闪退。</li></ul>
+<ul><li>不删除聊天记录或缓存文件；日志保留在微信本地。</li></ul>
+<ul><li>未识别的更新实现不会被强行修改。</li></ul>
+<hr>
+<h3>兼容性</h3>
+<ul><li>适用于 RootHide 隐根环境。</li></ul>
+<ul><li>2.7 已有 iOS 16.0.2 / 微信 8.0.78.34 用户实测记录，iOS 17.3.1 尚未验证。</li></ul>
+<ul><li>旧版 2.6 曾对微信 8.0.75.33、8.0.76.36、8.0.78.34 完成静态定位，并在 8.0.78.34 验证运行时拦截；这些记录不能替代 2.7 在其他系统上的实测。</li></ul>
+<hr>
+<h3>使用说明</h3>
+<ul><li>安装后请按软件包提示注销或重启用户空间。</li></ul>
+<ul><li>更新前建议备份重要数据。</li></ul>
+<p class="row"><span>当前版本</span><strong>2.7</strong></p>
+<p class="row"><span>分类</span><strong>微信插件</strong></p>
+<p class="row"><span>作者</span><strong>Rookib</strong></p>
+</section>
+<section><h2>更新</h2>
+<h3>2.7</h3>
+<ul><li>修复原生热更新被拦截后，Flutter 仍加载配套更新页面引发的微信 8.0.78 服务号闪退。</li></ul>
+<ul><li>同时拦截 Flutter 缓存更新选择，并移除对应热更新启动参数。</li></ul>
+<ul><li>不删除聊天记录或缓存文件。</li></ul>
+<ul><li>已有 iOS 16.0.2 / 微信 8.0.78.34 用户实测记录；iOS 17.3.1 尚未验证。</li></ul>
+<hr>
+<h3>2.6</h3>
+<ul><li>发布 HotUpdates 2.6</li></ul>
+<ul><li>更新 RootHide 软件包。</li></ul>
+</section><footer>源内展示作者统一为 Rookib；原始许可与版权声明保留在软件包及源码中。</footer></main></body></html>

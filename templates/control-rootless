@@ -1,10 +1,12 @@
 Package: com.example.package
-Name: Example Package
+Name: 示例插件
 Version: 1.0.0
 Architecture: iphoneos-arm64
-Description: A short description of the rootless package.
-Maintainer: Your Name
-Author: Your Name
-Section: Tweaks
+Description: 适用于对应越狱环境的示例插件，请补充准确的中文功能说明。
+Maintainer: Rookib
+Author: Rookib
+Section: 系统插件
 Depends: firmware (>= 15.0)
 Depiction: https://rookib.github.io/depictions/com.example.package/
+SileoDepiction: https://rookib.github.io/depictions/com.example.package.json
+Icon: https://rookib.github.io/assets/packages/com.example.package.png

@@ -1,0 +1,212 @@
+{
+  "cn.llld.biaoji": {
+    "name": "截图标记",
+    "description": "截图标注、保存与复制，包含静态主场景修复。",
+    "section": "截图工具",
+    "author": "Rookib",
+    "icon": {
+      "path": "assets/packages/cn.llld.biaoji.png",
+      "kind": "repository-fallback",
+      "color": "#348CD1",
+      "source": "scripts/render-fallback-icons.py：源内通用软件包图标，非插件原图标"
+    }
+  },
+  "cn.local.hellokbai.longshot.bridge": {
+    "name": "Hello 键盘侠 · 长截图与拼图",
+    "description": "为 Hello 键盘侠截图操作栏添加长截图与拼图功能。",
+    "section": "截图工具",
+    "author": "Rookib",
+    "icon": {
+      "path": "assets/packages/cn.local.hellokbai.longshot.bridge.png",
+      "kind": "repository-fallback",
+      "color": "#348CD1",
+      "source": "scripts/render-fallback-icons.py：包内仅有白色透明操作图，源内使用通用软件包图标，非插件原图标"
+    }
+  },
+  "cn.local.stayshot.longscreenshot.engine": {
+    "name": "StayShot 长截图引擎",
+    "description": "为 Hello 长截图桥接提供按需调用的长截图引擎。",
+    "section": "截图工具",
+    "author": "Rookib",
+    "icon": {
+      "path": "assets/packages/cn.local.stayshot.longscreenshot.engine.png",
+      "kind": "repository-fallback",
+      "color": "#348CD1",
+      "source": "scripts/render-fallback-icons.py：源内通用软件包图标，非插件原图标"
+    }
+  },
+  "cn.zqbb.cocoatop64.relaxin": {
+    "name": "CocoaTop64 中文版",
+    "description": "查看 iOS 进程与资源使用情况，支持复制进程名及打开文件路径。",
+    "section": "系统工具",
+    "author": "Rookib",
+    "icon": {
+      "path": "assets/packages/cn.zqbb.cocoatop64.relaxin.png",
+      "kind": "package-original",
+      "sourcePackage": "cn.zqbb.cocoatop64.relaxin 2.3.3-2+zh1",
+      "sourceMember": "Applications/CocoaTop.app/Icon@2x.png",
+      "sha256": "337694eafc562563efaa0169e9d0cc73c66763e8a20e50e357e8f1efaf704a25"
+    }
+  },
+  "com.25mao.leftPan": {
+    "name": "Hello Left 左滑返回",
+    "description": "提供跟手左滑返回，修复设置插件分类中外层手势抢占内层返回的问题。",
+    "section": "系统插件",
+    "author": "Rookib",
+    "icon": {
+      "path": "assets/packages/com.25mao.leftPan.png",
+      "kind": "package-original",
+      "sourcePackage": "com.25mao.leftPan 2.0.9",
+      "sourceMember": "Library/PreferenceBundles/leftPanPrefs.bundle/icon@2x.png",
+      "sha256": "80931f6c70b3ef294d19c183a83923807e65ad7a6d3421363fc0172727e30d3d"
+    }
+  },
+  "com.binglan.kongzhidiy": {
+    "name": "CCPrimeX 控制中心美化",
+    "description": "调整控制中心外观、布局和图标素材。",
+    "section": "界面美化",
+    "author": "Rookib",
+    "icon": {
+      "path": "assets/packages/com.binglan.kongzhidiy.png",
+      "kind": "package-original",
+      "sourcePackage": "com.binglan.kongzhidiy 2.3.6-end",
+      "sourceMember": "var/jb/Library/PreferenceBundles/binglanKongzhiPrefs.bundle/icon@3x.png",
+      "sha256": "97f901027492f49f81db42931bc68058ac8f1a7942a1894e8046db1012576cd5"
+    }
+  },
+  "com.binglanqjsy.deb": {
+    "name": "全局水印 Pro",
+    "description": "为截图添加水印与个性化显示效果。",
+    "section": "截图工具",
+    "author": "Rookib",
+    "icon": {
+      "path": "assets/packages/com.binglanqjsy.deb.png",
+      "kind": "package-original",
+      "sourcePackage": "com.binglanqjsy.deb 4.1.7-end",
+      "sourceMember": "var/jb/Library/PreferenceBundles/blqjsyPrefs.bundle/icon@2x.png",
+      "sha256": "228e92a07c816982f07437cbb995f178ad2f1ca15304bdacebc490199d8dc574"
+    }
+  },
+  "com.eason.fivegadvanced": {
+    "name": "Hello Eason 状态栏增强",
+    "description": "VPN 状态上色、隐藏 VPN、5GA 与静音显示增强，适配 iOS 16–17。",
+    "section": "系统插件",
+    "author": "Rookib",
+    "icon": {
+      "path": "assets/packages/com.eason.fivegadvanced.png",
+      "kind": "package-original",
+      "sourcePackage": "com.eason.fivegadvanced 2.6.7",
+      "sourceMember": "Library/PreferenceBundles/FiveGAdvancedPrefs.bundle/icon@3x.png",
+      "sha256": "21f88bdff89e079c66e8d249d2fbd3ceda8fd36a75a9cca18c065343964c9983"
+    }
+  },
+  "com.eason.folderdockglass": {
+    "name": "FolderDockGlass 玻璃效果",
+    "description": "RootHide 隐根版，为程序坞、文件夹和锁屏通知添加玻璃效果，无需独立设置。",
+    "section": "界面美化",
+    "author": "Rookib",
+    "icon": {
+      "path": "assets/packages/com.eason.folderdockglass.png",
+      "kind": "repository-fallback",
+      "color": "#7862B7",
+      "source": "scripts/render-fallback-icons.py：源内通用软件包图标，非插件原图标"
+    }
+  },
+  "com.eason.misakahelper": {
+    "name": "MisakaHelper 微信助手",
+    "description": "提供微信消息与界面增强；本地来源标注的微信兼容性仍需真机核验。",
+    "section": "微信插件",
+    "author": "Rookib",
+    "icon": {
+      "path": "assets/packages/com.eason.misakahelper.png",
+      "kind": "repository-fallback",
+      "color": "#2E9578",
+      "source": "scripts/render-fallback-icons.py：源内通用软件包图标，非插件原图标"
+    }
+  },
+  "com.eason.shortcutsintentguard": {
+    "name": "快捷指令闪退修复",
+    "description": "修复 iOS 16 快捷指令受 Visual Intelligence App Intent 元数据影响的闪退。",
+    "section": "系统工具",
+    "author": "Rookib",
+    "icon": {
+      "path": "assets/packages/com.eason.shortcutsintentguard.png",
+      "kind": "repository-fallback",
+      "color": "#526ABF",
+      "source": "scripts/render-fallback-icons.py：源内通用软件包图标，非插件原图标"
+    }
+  },
+  "com.eason.wcdisablehotupdates": {
+    "name": "微信禁用热更新",
+    "description": "拦截已识别的微信热更新；2.7 修复部分插件环境下微信 8.0.78 服务号页面闪退。",
+    "section": "微信插件",
+    "author": "Rookib",
+    "icon": {
+      "path": "assets/packages/com.eason.wcdisablehotupdates.png",
+      "kind": "repository-fallback",
+      "color": "#2E9578",
+      "source": "scripts/render-fallback-icons.py：源内通用软件包图标，非插件原图标"
+    }
+  },
+  "com.eason.wechatku": {
+    "name": "Wechatku 爱疯助手",
+    "description": "提供微信消息、媒体与界面增强；升级微信后的兼容性需单独核验。",
+    "section": "微信插件",
+    "author": "Rookib",
+    "icon": {
+      "path": "assets/packages/com.eason.wechatku.png",
+      "kind": "repository-fallback",
+      "color": "#2E9578",
+      "source": "scripts/render-fallback-icons.py：源内通用软件包图标，非插件原图标"
+    }
+  },
+  "com.eason.yikey": {
+    "name": "Hello Action 按键增强",
+    "description": "为 iPhone 14 系列和 iPhone 15 Pro 系列提供按键截图与图片翻译。",
+    "section": "系统插件",
+    "author": "Rookib",
+    "icon": {
+      "path": "assets/packages/com.eason.yikey.png",
+      "kind": "package-original",
+      "sourcePackage": "com.eason.yikey 0.2.13",
+      "sourceMember": "Library/PreferenceBundles/YiKeyPrefs.bundle/icon@3x.png",
+      "sha256": "1eac520121e4745737df182b25d8a05d44825a9e38f86943b9054b05d968f079"
+    }
+  },
+  "local.relaxin.snapshotfix": {
+    "name": "Relaxin 应用黑屏修复",
+    "description": "修复 Relaxin 启动快照兼容问题；仅适用于 iOS 17.3.1，0.1.4 为待真机注入验证的测试版。",
+    "section": "系统工具",
+    "author": "Rookib",
+    "icon": {
+      "path": "assets/packages/local.relaxin.snapshotfix.png",
+      "kind": "repository-fallback",
+      "color": "#526ABF",
+      "source": "scripts/render-fallback-icons.py：源内通用软件包图标，非插件原图标"
+    }
+  },
+  "local.sshwarningquiet": {
+    "name": "RootHide SSH 提示静默",
+    "description": "仅隐藏 RootHide 管理器的 SSH 安装提示，不改变 SSH 服务与配置。",
+    "section": "系统工具",
+    "author": "Rookib",
+    "icon": {
+      "path": "assets/packages/local.sshwarningquiet.png",
+      "kind": "repository-fallback",
+      "color": "#526ABF",
+      "source": "scripts/render-fallback-icons.py：源内通用软件包图标，非插件原图标"
+    }
+  },
+  "io.github.suckdrygod.touchdan": {
+    "name": "Touch-Dan",
+    "description": "触点与滑动轨迹显示，提供录屏模式、颜色、大小及图片效果设置。",
+    "section": "界面美化",
+    "author": "Rookib",
+    "icon": {
+      "path": "assets/packages/io.github.suckdrygod.touchdan.png",
+      "kind": "upstream-original",
+      "source": "Touch-Viz 4.2 / TVZPrefs/Resources/icon@3x.png",
+      "sha256": "6c228bfc5b1172b83cf08b34ba92723b202e419d1326dab38e6d31754910c358"
+    }
+  }
+}

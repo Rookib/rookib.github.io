@@ -6,9 +6,12 @@ umask 022
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 SITE_DIR="${ROOT_DIR}/_site"
 OVERRIDE_FILE="${ROOT_DIR}/config/package-overrides"
-REPO_NAME="${REPO_NAME:-Eason}"
-REPO_ORIGIN="${REPO_ORIGIN:-Eason}"
-REPO_DESCRIPTION="${REPO_DESCRIPTION:-A personal iOS jailbreak package repository.}"
+REPO_NAME="${REPO_NAME:-Rookib}"
+REPO_ORIGIN="${REPO_ORIGIN:-Rookib}"
+REPO_DESCRIPTION="${REPO_DESCRIPTION:-Rookib 中文 iOS 越狱软件源。}"
+
+python3 "${ROOT_DIR}/scripts/test-metadata.py"
+python3 "${ROOT_DIR}/scripts/build-metadata.py" --check --require-versions
 
 if [[ -z "${ROOT_DIR}" || "${SITE_DIR}" != "${ROOT_DIR}/_site" ]]; then
   echo "Refusing to build with an unexpected output path." >&2
@@ -22,6 +25,8 @@ cp "${ROOT_DIR}/index.html" "${SITE_DIR}/index.html"
 cp "${ROOT_DIR}/index.html" "${SITE_DIR}/404.html"
 cp "${ROOT_DIR}/.nojekyll" "${SITE_DIR}/.nojekyll"
 cp "${ROOT_DIR}/CydiaIcon.png" "${SITE_DIR}/CydiaIcon.png"
+cp "${ROOT_DIR}/SileoIcon.png" "${SITE_DIR}/SileoIcon.png"
+cp "${ROOT_DIR}/packages.html" "${SITE_DIR}/packages.html"
 cp -R "${ROOT_DIR}/assets" "${SITE_DIR}/assets"
 cp "${ROOT_DIR}/sileo-featured.json" "${SITE_DIR}/sileo-featured.json"
 
@@ -50,6 +55,8 @@ else
   : > "${SITE_DIR}/Packages"
 fi
 
+python3 "${ROOT_DIR}/scripts/build-metadata.py" --check --require-versions --check-index "${SITE_DIR}/Packages"
+
 gzip -n -9 -c "${SITE_DIR}/Packages" > "${SITE_DIR}/Packages.gz"
 bzip2 -9 -c "${SITE_DIR}/Packages" > "${SITE_DIR}/Packages.bz2"
 xz -9e -c "${SITE_DIR}/Packages" > "${SITE_DIR}/Packages.xz"
@@ -73,6 +80,7 @@ trap 'rm -f "${release_body}"' EXIT
     -o "APT::FTPArchive::Release::Description=${REPO_DESCRIPTION}" \
     release .
 ) > "${release_body}"
+printf 'Icon: https://rookib.github.io/CydiaIcon.png\n' >> "${release_body}"
 mv "${release_body}" "${SITE_DIR}/Release"
 trap - EXIT
 
@@ -83,6 +91,8 @@ cp "${SITE_DIR}/index.html" "${LEGACY_DIR}/index.html"
 cp "${SITE_DIR}/404.html" "${LEGACY_DIR}/404.html"
 cp "${SITE_DIR}/.nojekyll" "${LEGACY_DIR}/.nojekyll"
 cp "${SITE_DIR}/CydiaIcon.png" "${LEGACY_DIR}/CydiaIcon.png"
+cp "${SITE_DIR}/SileoIcon.png" "${LEGACY_DIR}/SileoIcon.png"
+cp "${SITE_DIR}/packages.html" "${LEGACY_DIR}/packages.html"
 cp "${SITE_DIR}/Packages" "${LEGACY_DIR}/Packages"
 cp "${SITE_DIR}/Packages.gz" "${LEGACY_DIR}/Packages.gz"
 cp "${SITE_DIR}/Packages.bz2" "${LEGACY_DIR}/Packages.bz2"
