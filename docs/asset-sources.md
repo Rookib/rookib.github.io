@@ -38,5 +38,6 @@
 | Relaxin 应用黑屏修复 | 源内通用图标（非插件原图标） |
 | RootHide SSH 提示静默 | 源内通用图标（非插件原图标） |
 | Touch-Dan | Touch-Viz 4.2 原图标 |
+| QQ 紧凑布局 | 用户提供的 QQ 9.3.50 包内主图标 `Payload/QQ.app/AppIcon-160x60@2x.png`，保持原始 PNG 字节 |
 
 具体原包版本、成员路径及原图标 SHA-256 见 `config/packages.json`。通用图标由 `scripts/render-fallback-icons.py` 使用固定几何图形生成，可离线重新生成；本流程不会用通用图标替换已有原图标。

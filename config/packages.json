@@ -208,5 +208,17 @@
       "source": "Touch-Viz 4.2 / TVZPrefs/Resources/icon@3x.png",
       "sha256": "6c228bfc5b1172b83cf08b34ba92723b202e419d1326dab38e6d31754910c358"
     }
+  },
+  "local.qqcompact": {
+    "name": "QQ 紧凑布局",
+    "description": "QQ 9.3.50 紧凑布局，默认缩放 85%，支持原版及已适配的多开 QQ。",
+    "section": "QQ插件",
+    "author": "Rookib",
+    "icon": {
+      "path": "assets/packages/local.qqcompact.png",
+      "kind": "upstream-original",
+      "source": "用户提供的 QQ 9.3.50 / Payload/QQ.app/AppIcon-160x60@2x.png（CFBundlePrimaryIcon）",
+      "sha256": "282506ac0f5b8f44577b4d13226b1f1001b2420a8cda0d1cc1ca9f835126cde0"
+    }
   }
 }
