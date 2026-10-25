@@ -1,0 +1,40 @@
+{
+  "version": "0.1.2",
+  "defaultScale": 0.85,
+  "qqVersion": "9.3.50",
+  "qqBuild": "9.3.50.604",
+  "bundleIDs": [
+    "com.tencent.mqq",
+    "com.tencent.mqq12",
+    "com.tencent.mqq.12",
+    "com.tencent.mqq.13"
+  ],
+  "tests": {
+    "passed": 57,
+    "failed": 0,
+    "skipped": 0
+  },
+  "deviceTest": "新版尚待多开真机注入验证",
+  "files": [
+    {
+      "path": "assets/downloads/qqcompact/0.1.2/QQCompact.dylib",
+      "size": 232192,
+      "sha256": "b7b6ace59d4ee7460034dc117d0c1a7b7efb9049224e644052ec3a58b49dd9c6"
+    },
+    {
+      "path": "pool/local.qqcompact_0.1.2_rootless_iphoneos-arm64.deb",
+      "size": 37340,
+      "sha256": "c883c4063b65e7f0813ddea58c598fd8b738b8ddd3ed3fca6de74a4eadaa0c53"
+    },
+    {
+      "path": "pool/local.qqcompact_0.1.2_rootful_iphoneos-arm.deb",
+      "size": 37300,
+      "sha256": "a1d689b6cfd27bc91c9f96045405aaaca11498995dd100098130ca97a89592ff"
+    },
+    {
+      "path": "pool/local.qqcompact_0.1.2_roothide_iphoneos-arm64e.deb",
+      "size": 37352,
+      "sha256": "bc6b562043f93aafb57e30e30b2c041a6a531fa4aaac91a448570b0b9348fee6"
+    }
+  ]
+}

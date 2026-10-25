@@ -1,0 +1,95 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "tintColor": "#168BDF",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "主要功能",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 默认采用 85% 紧凑布局，调整已识别的 QQ 字号与尺寸入口。\n\n- 在 QQ 内三指长按约 0.8 秒打开设置，可选 80%、85%、90% 或恢复原布局；修改后完全退出并重开 QQ。\n\n- 各多开使用各自的设置，互不覆盖。",
+          "useSpacing": true,
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "适配范围",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 仅适用于 iOS 16–17 的 QQ 9.3.50，内部版本 9.3.50.604。\n\n- 支持原版 com.tencent.mqq，以及 com.tencent.mqq12、com.tencent.mqq.12、com.tencent.mqq.13。其他多开标识暂不启用。\n\n- 保留程序指纹和布局入口校验；版本不匹配时自动停用。部分消息列表缓存及其他页面仍需逐项验证。",
+          "useSpacing": true,
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "安装方式",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 软件源提供传统 Rootful、无根 Rootless、隐根 RootHide 三种安装包，由包管理器按设备环境选择。\n\n- 使用巨魔注入器时，请使用同版本独立 dylib；不要对同一个 QQ 同时使用软件源注入和巨魔注入。\n\n- 安装后完全退出并重开 QQ。隐根包安装文件由 RootHide 管理，不写入系统 /var/tmp。",
+          "useSpacing": true,
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "测试状态",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 0.1.2 已通过编译、57 项主机回归与真实 QQ 程序样本校验；本次发布时，两个多开的新版注入测试尚未完成。\n\n- 历史版本曾在 iOS 16.0.2 原版 QQ 和 iOS 17.3.1 原版 QQ 确认生效，不能替代新版多开的真机测试。",
+          "useSpacing": true,
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "图标",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "按要求使用 QQ 原应用图标作为功能识别。此插件由 Rookib 维护，与腾讯官方无隶属关系。",
+          "useSpacing": true,
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "当前版本",
+          "text": "0.1.2"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "作者",
+          "text": "Rookib"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "0.1.2",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 修复多开 QQ 标识带点时被排除的问题，加入已核实的 .12 与 .13 标识。\n\n- 包含 0.1.1 的 RootHide 主程序识别修正。\n\n- 默认保持 85%，同步中文详情、QQ 原图标与 Rookib 作者信息。",
+          "useSpacing": true,
+          "useRawFormat": false
+        }
+      ]
+    }
+  ]
+}

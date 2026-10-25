@@ -118,6 +118,14 @@ io.github.suckdrygod.touchdan Maintainer Rookib
 io.github.suckdrygod.touchdan Icon https://rookib.github.io/assets/packages/io.github.suckdrygod.touchdan.png
 io.github.suckdrygod.touchdan Depiction https://rookib.github.io/depictions/io.github.suckdrygod.touchdan/
 io.github.suckdrygod.touchdan SileoDepiction https://rookib.github.io/depictions/io.github.suckdrygod.touchdan.json
+local.qqcompact Name QQ 紧凑布局
+local.qqcompact Description QQ 9.3.50 紧凑布局，默认缩放 85%，支持原版及已适配的多开 QQ。
+local.qqcompact Section QQ插件
+local.qqcompact Author Rookib
+local.qqcompact Maintainer Rookib
+local.qqcompact Icon https://rookib.github.io/assets/packages/local.qqcompact.png
+local.qqcompact Depiction https://rookib.github.io/depictions/local.qqcompact/
+local.qqcompact SileoDepiction https://rookib.github.io/depictions/local.qqcompact.json
 local.relaxin.snapshotfix Name Relaxin 应用黑屏修复
 local.relaxin.snapshotfix Description 修复 Relaxin 启动快照兼容问题；仅适用于 iOS 17.3.1，0.1.4 为待真机注入验证的测试版。
 local.relaxin.snapshotfix Section 系统工具
