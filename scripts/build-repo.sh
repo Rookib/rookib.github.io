@@ -24,7 +24,9 @@ mkdir -p "${SITE_DIR}/pool" "${SITE_DIR}/depictions"
 cp "${ROOT_DIR}/index.html" "${SITE_DIR}/index.html"
 cp "${ROOT_DIR}/index.html" "${SITE_DIR}/404.html"
 cp "${ROOT_DIR}/.nojekyll" "${SITE_DIR}/.nojekyll"
-cp "${ROOT_DIR}/CydiaIcon.png" "${SITE_DIR}/CydiaIcon.png"
+for icon in CydiaIcon.png CydiaIcon@2x.png CydiaIcon@3x.png; do
+  cp "${ROOT_DIR}/${icon}" "${SITE_DIR}/${icon}"
+done
 cp "${ROOT_DIR}/SileoIcon.png" "${SITE_DIR}/SileoIcon.png"
 cp "${ROOT_DIR}/packages.html" "${SITE_DIR}/packages.html"
 cp -R "${ROOT_DIR}/assets" "${SITE_DIR}/assets"
@@ -90,7 +92,9 @@ mkdir -p "${LEGACY_DIR}"
 cp "${SITE_DIR}/index.html" "${LEGACY_DIR}/index.html"
 cp "${SITE_DIR}/404.html" "${LEGACY_DIR}/404.html"
 cp "${SITE_DIR}/.nojekyll" "${LEGACY_DIR}/.nojekyll"
-cp "${SITE_DIR}/CydiaIcon.png" "${LEGACY_DIR}/CydiaIcon.png"
+for icon in CydiaIcon.png CydiaIcon@2x.png CydiaIcon@3x.png; do
+  cp "${SITE_DIR}/${icon}" "${LEGACY_DIR}/${icon}"
+done
 cp "${SITE_DIR}/SileoIcon.png" "${LEGACY_DIR}/SileoIcon.png"
 cp "${SITE_DIR}/packages.html" "${LEGACY_DIR}/packages.html"
 cp "${SITE_DIR}/Packages" "${LEGACY_DIR}/Packages"
