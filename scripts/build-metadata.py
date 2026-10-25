@@ -96,20 +96,26 @@ def validate_index(path, entries, catalog):
     expected = {tuple(c[k] for k in ('Package', 'Version', 'Architecture')): (p, c) for p, c in entries}
     seen = set()
     for record in records:
-        identity = tuple(record[k] for k in ('Package', 'Version', 'Architecture'))
+        # Debian field names are case-insensitive. dpkg serializes the custom
+        # SileoDepiction field as Sileodepiction; values remain case-sensitive.
+        normalized = {key.casefold(): value for key, value in record.items()}
+        if len(normalized) != len(record):
+            raise ValueError('Duplicate index field with different capitalization')
+        record = normalized
+        identity = tuple(record[k.casefold()] for k in ('Package', 'Version', 'Architecture'))
         if identity in seen or identity not in expected:
             raise ValueError(f'Unexpected or duplicate index entry: {identity}')
         seen.add(identity)
         deb, original = expected[identity]
         for key, value in original.items():
-            if key not in DISPLAY_FIELDS and record.get(key) != value:
+            if key.casefold() not in {k.casefold() for k in DISPLAY_FIELDS} and record.get(key.casefold()) != value:
                 raise ValueError(f'Index changed {key}: {identity}')
-        if record.get('SHA256') != hashlib.sha256(deb.read_bytes()).hexdigest():
+        if record.get('sha256') != hashlib.sha256(deb.read_bytes()).hexdigest():
             raise ValueError(f'Wrong package hash: {identity}')
-        if record.get('Filename') != 'pool/' + deb.name or record.get('Size') != str(deb.stat().st_size):
+        if record.get('filename') != 'pool/' + deb.name or record.get('size') != str(deb.stat().st_size):
             raise ValueError(f'Wrong package location/size: {identity}')
         for key, value in overrides(catalog[identity[0]], identity[0]).items():
-            if record.get(key) != value:
+            if record.get(key.casefold()) != value:
                 raise ValueError(f'Wrong display field {key}: {identity}')
     if seen != set(expected):
         raise ValueError(f'APT index dropped package versions/architectures: {set(expected) - seen}')

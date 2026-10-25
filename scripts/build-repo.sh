@@ -10,6 +10,7 @@ REPO_NAME="${REPO_NAME:-Rookib}"
 REPO_ORIGIN="${REPO_ORIGIN:-Rookib}"
 REPO_DESCRIPTION="${REPO_DESCRIPTION:-Rookib 中文 iOS 越狱软件源。}"
 
+python3 "${ROOT_DIR}/scripts/test-metadata.py"
 python3 "${ROOT_DIR}/scripts/build-metadata.py" --check --require-versions
 
 if [[ -z "${ROOT_DIR}" || "${SITE_DIR}" != "${ROOT_DIR}/_site" ]]; then
