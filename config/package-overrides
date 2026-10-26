@@ -134,6 +134,14 @@ local.relaxin.snapshotfix Maintainer Rookib
 local.relaxin.snapshotfix Icon https://rookib.github.io/assets/packages/local.relaxin.snapshotfix.png
 local.relaxin.snapshotfix Depiction https://rookib.github.io/depictions/local.relaxin.snapshotfix/
 local.relaxin.snapshotfix SileoDepiction https://rookib.github.io/depictions/local.relaxin.snapshotfix.json
+local.smscodecopy Name 短信通知复制
+local.smscodecopy Description 在短信验证码通知中添加复制按钮，轻点即可复制，支持系统通知、锁屏通知及已适配的 Aperture 胶囊横幅。
+local.smscodecopy Section 通知工具
+local.smscodecopy Author Rookib
+local.smscodecopy Maintainer Rookib
+local.smscodecopy Icon https://rookib.github.io/assets/packages/local.smscodecopy.png
+local.smscodecopy Depiction https://rookib.github.io/depictions/local.smscodecopy/
+local.smscodecopy SileoDepiction https://rookib.github.io/depictions/local.smscodecopy.json
 local.sshwarningquiet Name RootHide SSH 提示静默
 local.sshwarningquiet Description 仅隐藏 RootHide 管理器的 SSH 安装提示，不改变 SSH 服务与配置。
 local.sshwarningquiet Section 系统工具
