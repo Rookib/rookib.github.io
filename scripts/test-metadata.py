@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Regression checks for Debian's case-insensitive field names."""
+"""Regression checks for Debian field names and archive size validation."""
 import hashlib
 import importlib.util
 from pathlib import Path
@@ -22,7 +22,7 @@ class IndexFields(unittest.TestCase):
         self.control = {'Package': 'example', 'Version': '1.0',
                         'Architecture': 'iphoneos-arm64e', 'Depends': 'firmware (>= 16.0)'}
         self.catalog = {'example': {'name': '示例', 'description': '中文说明',
-                                   'author': 'Rookib', 'section': '系统插件',
+                                   'author': 'Rookib', 'section': '工具',
                                    'icon': {'path': 'assets/packages/example.png'}}}
         self.fields = dict(self.control, Filename='pool/example.deb', Size='17',
                            SHA256=hashlib.sha256(self.deb.read_bytes()).hexdigest())
@@ -47,6 +47,16 @@ class IndexFields(unittest.TestCase):
     def test_dependency_changes_still_fail(self):
         self.fields['Depends'] = 'firmware (>= 17.0)'
         with self.assertRaisesRegex(ValueError, 'Index changed Depends'):
+            self.validate(self.fields)
+
+    def test_stale_control_size_uses_actual_archive_size(self):
+        self.control['Size'] = '999999'
+        self.validate(self.fields)
+
+    def test_matching_control_size_cannot_mask_wrong_index_size(self):
+        self.control['Size'] = '999999'
+        self.fields['Size'] = '999999'
+        with self.assertRaisesRegex(ValueError, 'Wrong package location/size'):
             self.validate(self.fields)
 
     def test_duplicate_capitalizations_fail(self):

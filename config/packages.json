@@ -2,7 +2,7 @@
   "cn.llld.biaoji": {
     "name": "截图标记",
     "description": "截图标注、保存与复制，包含静态主场景修复。",
-    "section": "截图工具",
+    "section": "工具",
     "author": "Rookib",
     "icon": {
       "path": "assets/packages/cn.llld.biaoji.png",
@@ -14,7 +14,7 @@
   "cn.local.hellokbai.longshot.bridge": {
     "name": "Hello 键盘侠 · 长截图与拼图",
     "description": "为 Hello 键盘侠截图操作栏添加长截图与拼图功能。",
-    "section": "截图工具",
+    "section": "工具",
     "author": "Rookib",
     "icon": {
       "path": "assets/packages/cn.local.hellokbai.longshot.bridge.png",
@@ -26,7 +26,7 @@
   "cn.local.stayshot.longscreenshot.engine": {
     "name": "StayShot 长截图引擎",
     "description": "为 Hello 长截图桥接提供按需调用的长截图引擎。",
-    "section": "截图工具",
+    "section": "工具",
     "author": "Rookib",
     "icon": {
       "path": "assets/packages/cn.local.stayshot.longscreenshot.engine.png",
@@ -38,7 +38,7 @@
   "cn.zqbb.cocoatop64.relaxin": {
     "name": "CocoaTop64 中文版",
     "description": "查看 iOS 进程与资源使用情况，支持复制进程名及打开文件路径。",
-    "section": "系统工具",
+    "section": "工具",
     "author": "Rookib",
     "icon": {
       "path": "assets/packages/cn.zqbb.cocoatop64.relaxin.png",
@@ -51,7 +51,7 @@
   "com.25mao.leftPan": {
     "name": "Hello Left 左滑返回",
     "description": "提供跟手左滑返回，修复设置插件分类中外层手势抢占内层返回的问题。",
-    "section": "系统插件",
+    "section": "工具",
     "author": "Rookib",
     "icon": {
       "path": "assets/packages/com.25mao.leftPan.png",
@@ -64,7 +64,7 @@
   "com.binglan.kongzhidiy": {
     "name": "CCPrimeX 控制中心美化",
     "description": "调整控制中心外观、布局和图标素材。",
-    "section": "界面美化",
+    "section": "工具",
     "author": "Rookib",
     "icon": {
       "path": "assets/packages/com.binglan.kongzhidiy.png",
@@ -77,7 +77,7 @@
   "com.binglanqjsy.deb": {
     "name": "全局水印 Pro",
     "description": "为截图添加水印与个性化显示效果。",
-    "section": "截图工具",
+    "section": "工具",
     "author": "Rookib",
     "icon": {
       "path": "assets/packages/com.binglanqjsy.deb.png",
@@ -90,7 +90,7 @@
   "com.eason.fivegadvanced": {
     "name": "Hello Eason 状态栏增强",
     "description": "VPN 状态上色、隐藏 VPN、5GA 与静音显示增强，适配 iOS 16–17。",
-    "section": "系统插件",
+    "section": "工具",
     "author": "Rookib",
     "icon": {
       "path": "assets/packages/com.eason.fivegadvanced.png",
@@ -103,7 +103,7 @@
   "com.eason.folderdockglass": {
     "name": "FolderDockGlass 玻璃效果",
     "description": "RootHide 隐根版，为程序坞、文件夹和锁屏通知添加玻璃效果，无需独立设置。",
-    "section": "界面美化",
+    "section": "工具",
     "author": "Rookib",
     "icon": {
       "path": "assets/packages/com.eason.folderdockglass.png",
@@ -127,7 +127,7 @@
   "com.eason.shortcutsintentguard": {
     "name": "快捷指令闪退修复",
     "description": "修复 iOS 16 快捷指令受 Visual Intelligence App Intent 元数据影响的闪退。",
-    "section": "系统工具",
+    "section": "工具",
     "author": "Rookib",
     "icon": {
       "path": "assets/packages/com.eason.shortcutsintentguard.png",
@@ -163,7 +163,7 @@
   "com.eason.yikey": {
     "name": "Hello Action 按键增强",
     "description": "为 iPhone 14 系列和 iPhone 15 Pro 系列提供按键截图与图片翻译。",
-    "section": "系统插件",
+    "section": "工具",
     "author": "Rookib",
     "icon": {
       "path": "assets/packages/com.eason.yikey.png",
@@ -176,7 +176,7 @@
   "local.relaxin.snapshotfix": {
     "name": "Relaxin 应用黑屏修复",
     "description": "修复 Relaxin 启动快照兼容问题；仅适用于 iOS 17.3.1，0.1.4 为待真机注入验证的测试版。",
-    "section": "系统工具",
+    "section": "工具",
     "author": "Rookib",
     "icon": {
       "path": "assets/packages/local.relaxin.snapshotfix.png",
@@ -188,7 +188,7 @@
   "local.sshwarningquiet": {
     "name": "RootHide SSH 提示静默",
     "description": "仅隐藏 RootHide 管理器的 SSH 安装提示，不改变 SSH 服务与配置。",
-    "section": "系统工具",
+    "section": "工具",
     "author": "Rookib",
     "icon": {
       "path": "assets/packages/local.sshwarningquiet.png",
@@ -200,7 +200,7 @@
   "io.github.suckdrygod.touchdan": {
     "name": "Touch-Dan",
     "description": "触点与滑动轨迹显示，提供录屏模式、颜色、大小及图片效果设置。",
-    "section": "界面美化",
+    "section": "工具",
     "author": "Rookib",
     "icon": {
       "path": "assets/packages/io.github.suckdrygod.touchdan.png",
@@ -212,7 +212,7 @@
   "local.qqcompact": {
     "name": "QQ 紧凑布局",
     "description": "QQ 9.3.50 紧凑布局，默认缩放 85%，支持原版及已适配的多开 QQ。",
-    "section": "QQ插件",
+    "section": "工具",
     "author": "Rookib",
     "icon": {
       "path": "assets/packages/local.qqcompact.png",
@@ -224,13 +224,25 @@
   "local.smscodecopy": {
     "name": "短信通知复制",
     "description": "在短信验证码通知中添加复制按钮，轻点即可复制，支持系统通知、锁屏通知及已适配的 Aperture 胶囊横幅。",
-    "section": "通知工具",
+    "section": "工具",
     "author": "Rookib",
     "icon": {
       "path": "assets/packages/local.smscodecopy.png",
       "kind": "custom-generated",
       "source": "按用户要求为短信通知复制设计；内置 image_gen 生成的绿色短信气泡与复制符号，无文字。",
       "sha256": "0e3accaa02cc64a5fcb9dc633e628a3d2e61fdd52f372215ab74955519fde602"
+    }
+  },
+  "re.frida.server": {
+    "name": "Frida 动态调试工具",
+    "description": "Frida 动态插桩服务端，配合电脑端工具进行应用运行分析与调试；随包服务端口为 2909。",
+    "section": "工具",
+    "author": "Rookib",
+    "icon": {
+      "path": "assets/packages/re.frida.server.png",
+      "kind": "upstream-original",
+      "source": "Frida 官方网站仓库 frida/frida-website 的 _assets/favicon32.png；原始 PNG，许可见 docs/licenses/frida-website-MIT.txt",
+      "sha256": "33e92f8401584673397b164b6c7f474e80f7fb62f733267f52d28cb7cd97eb97"
     }
   }
 }

@@ -1,6 +1,6 @@
 cn.llld.biaoji Name 截图标记
 cn.llld.biaoji Description 截图标注、保存与复制，包含静态主场景修复。
-cn.llld.biaoji Section 截图工具
+cn.llld.biaoji Section 工具
 cn.llld.biaoji Author Rookib
 cn.llld.biaoji Maintainer Rookib
 cn.llld.biaoji Icon https://rookib.github.io/assets/packages/cn.llld.biaoji.png
@@ -8,7 +8,7 @@ cn.llld.biaoji Depiction https://rookib.github.io/depictions/cn.llld.biaoji/
 cn.llld.biaoji SileoDepiction https://rookib.github.io/depictions/cn.llld.biaoji.json
 cn.local.hellokbai.longshot.bridge Name Hello 键盘侠 · 长截图与拼图
 cn.local.hellokbai.longshot.bridge Description 为 Hello 键盘侠截图操作栏添加长截图与拼图功能。
-cn.local.hellokbai.longshot.bridge Section 截图工具
+cn.local.hellokbai.longshot.bridge Section 工具
 cn.local.hellokbai.longshot.bridge Author Rookib
 cn.local.hellokbai.longshot.bridge Maintainer Rookib
 cn.local.hellokbai.longshot.bridge Icon https://rookib.github.io/assets/packages/cn.local.hellokbai.longshot.bridge.png
@@ -16,7 +16,7 @@ cn.local.hellokbai.longshot.bridge Depiction https://rookib.github.io/depictions
 cn.local.hellokbai.longshot.bridge SileoDepiction https://rookib.github.io/depictions/cn.local.hellokbai.longshot.bridge.json
 cn.local.stayshot.longscreenshot.engine Name StayShot 长截图引擎
 cn.local.stayshot.longscreenshot.engine Description 为 Hello 长截图桥接提供按需调用的长截图引擎。
-cn.local.stayshot.longscreenshot.engine Section 截图工具
+cn.local.stayshot.longscreenshot.engine Section 工具
 cn.local.stayshot.longscreenshot.engine Author Rookib
 cn.local.stayshot.longscreenshot.engine Maintainer Rookib
 cn.local.stayshot.longscreenshot.engine Icon https://rookib.github.io/assets/packages/cn.local.stayshot.longscreenshot.engine.png
@@ -24,7 +24,7 @@ cn.local.stayshot.longscreenshot.engine Depiction https://rookib.github.io/depic
 cn.local.stayshot.longscreenshot.engine SileoDepiction https://rookib.github.io/depictions/cn.local.stayshot.longscreenshot.engine.json
 cn.zqbb.cocoatop64.relaxin Name CocoaTop64 中文版
 cn.zqbb.cocoatop64.relaxin Description 查看 iOS 进程与资源使用情况，支持复制进程名及打开文件路径。
-cn.zqbb.cocoatop64.relaxin Section 系统工具
+cn.zqbb.cocoatop64.relaxin Section 工具
 cn.zqbb.cocoatop64.relaxin Author Rookib
 cn.zqbb.cocoatop64.relaxin Maintainer Rookib
 cn.zqbb.cocoatop64.relaxin Icon https://rookib.github.io/assets/packages/cn.zqbb.cocoatop64.relaxin.png
@@ -32,7 +32,7 @@ cn.zqbb.cocoatop64.relaxin Depiction https://rookib.github.io/depictions/cn.zqbb
 cn.zqbb.cocoatop64.relaxin SileoDepiction https://rookib.github.io/depictions/cn.zqbb.cocoatop64.relaxin.json
 com.25mao.leftPan Name Hello Left 左滑返回
 com.25mao.leftPan Description 提供跟手左滑返回，修复设置插件分类中外层手势抢占内层返回的问题。
-com.25mao.leftPan Section 系统插件
+com.25mao.leftPan Section 工具
 com.25mao.leftPan Author Rookib
 com.25mao.leftPan Maintainer Rookib
 com.25mao.leftPan Icon https://rookib.github.io/assets/packages/com.25mao.leftPan.png
@@ -40,7 +40,7 @@ com.25mao.leftPan Depiction https://rookib.github.io/depictions/com.25mao.leftPa
 com.25mao.leftPan SileoDepiction https://rookib.github.io/depictions/com.25mao.leftPan.json
 com.binglan.kongzhidiy Name CCPrimeX 控制中心美化
 com.binglan.kongzhidiy Description 调整控制中心外观、布局和图标素材。
-com.binglan.kongzhidiy Section 界面美化
+com.binglan.kongzhidiy Section 工具
 com.binglan.kongzhidiy Author Rookib
 com.binglan.kongzhidiy Maintainer Rookib
 com.binglan.kongzhidiy Icon https://rookib.github.io/assets/packages/com.binglan.kongzhidiy.png
@@ -48,7 +48,7 @@ com.binglan.kongzhidiy Depiction https://rookib.github.io/depictions/com.binglan
 com.binglan.kongzhidiy SileoDepiction https://rookib.github.io/depictions/com.binglan.kongzhidiy.json
 com.binglanqjsy.deb Name 全局水印 Pro
 com.binglanqjsy.deb Description 为截图添加水印与个性化显示效果。
-com.binglanqjsy.deb Section 截图工具
+com.binglanqjsy.deb Section 工具
 com.binglanqjsy.deb Author Rookib
 com.binglanqjsy.deb Maintainer Rookib
 com.binglanqjsy.deb Icon https://rookib.github.io/assets/packages/com.binglanqjsy.deb.png
@@ -56,7 +56,7 @@ com.binglanqjsy.deb Depiction https://rookib.github.io/depictions/com.binglanqjs
 com.binglanqjsy.deb SileoDepiction https://rookib.github.io/depictions/com.binglanqjsy.deb.json
 com.eason.fivegadvanced Name Hello Eason 状态栏增强
 com.eason.fivegadvanced Description VPN 状态上色、隐藏 VPN、5GA 与静音显示增强，适配 iOS 16–17。
-com.eason.fivegadvanced Section 系统插件
+com.eason.fivegadvanced Section 工具
 com.eason.fivegadvanced Author Rookib
 com.eason.fivegadvanced Maintainer Rookib
 com.eason.fivegadvanced Icon https://rookib.github.io/assets/packages/com.eason.fivegadvanced.png
@@ -64,7 +64,7 @@ com.eason.fivegadvanced Depiction https://rookib.github.io/depictions/com.eason.
 com.eason.fivegadvanced SileoDepiction https://rookib.github.io/depictions/com.eason.fivegadvanced.json
 com.eason.folderdockglass Name FolderDockGlass 玻璃效果
 com.eason.folderdockglass Description RootHide 隐根版，为程序坞、文件夹和锁屏通知添加玻璃效果，无需独立设置。
-com.eason.folderdockglass Section 界面美化
+com.eason.folderdockglass Section 工具
 com.eason.folderdockglass Author Rookib
 com.eason.folderdockglass Maintainer Rookib
 com.eason.folderdockglass Icon https://rookib.github.io/assets/packages/com.eason.folderdockglass.png
@@ -80,7 +80,7 @@ com.eason.misakahelper Depiction https://rookib.github.io/depictions/com.eason.m
 com.eason.misakahelper SileoDepiction https://rookib.github.io/depictions/com.eason.misakahelper.json
 com.eason.shortcutsintentguard Name 快捷指令闪退修复
 com.eason.shortcutsintentguard Description 修复 iOS 16 快捷指令受 Visual Intelligence App Intent 元数据影响的闪退。
-com.eason.shortcutsintentguard Section 系统工具
+com.eason.shortcutsintentguard Section 工具
 com.eason.shortcutsintentguard Author Rookib
 com.eason.shortcutsintentguard Maintainer Rookib
 com.eason.shortcutsintentguard Icon https://rookib.github.io/assets/packages/com.eason.shortcutsintentguard.png
@@ -104,7 +104,7 @@ com.eason.wechatku Depiction https://rookib.github.io/depictions/com.eason.wecha
 com.eason.wechatku SileoDepiction https://rookib.github.io/depictions/com.eason.wechatku.json
 com.eason.yikey Name Hello Action 按键增强
 com.eason.yikey Description 为 iPhone 14 系列和 iPhone 15 Pro 系列提供按键截图与图片翻译。
-com.eason.yikey Section 系统插件
+com.eason.yikey Section 工具
 com.eason.yikey Author Rookib
 com.eason.yikey Maintainer Rookib
 com.eason.yikey Icon https://rookib.github.io/assets/packages/com.eason.yikey.png
@@ -112,7 +112,7 @@ com.eason.yikey Depiction https://rookib.github.io/depictions/com.eason.yikey/
 com.eason.yikey SileoDepiction https://rookib.github.io/depictions/com.eason.yikey.json
 io.github.suckdrygod.touchdan Name Touch-Dan
 io.github.suckdrygod.touchdan Description 触点与滑动轨迹显示，提供录屏模式、颜色、大小及图片效果设置。
-io.github.suckdrygod.touchdan Section 界面美化
+io.github.suckdrygod.touchdan Section 工具
 io.github.suckdrygod.touchdan Author Rookib
 io.github.suckdrygod.touchdan Maintainer Rookib
 io.github.suckdrygod.touchdan Icon https://rookib.github.io/assets/packages/io.github.suckdrygod.touchdan.png
@@ -120,7 +120,7 @@ io.github.suckdrygod.touchdan Depiction https://rookib.github.io/depictions/io.g
 io.github.suckdrygod.touchdan SileoDepiction https://rookib.github.io/depictions/io.github.suckdrygod.touchdan.json
 local.qqcompact Name QQ 紧凑布局
 local.qqcompact Description QQ 9.3.50 紧凑布局，默认缩放 85%，支持原版及已适配的多开 QQ。
-local.qqcompact Section QQ插件
+local.qqcompact Section 工具
 local.qqcompact Author Rookib
 local.qqcompact Maintainer Rookib
 local.qqcompact Icon https://rookib.github.io/assets/packages/local.qqcompact.png
@@ -128,7 +128,7 @@ local.qqcompact Depiction https://rookib.github.io/depictions/local.qqcompact/
 local.qqcompact SileoDepiction https://rookib.github.io/depictions/local.qqcompact.json
 local.relaxin.snapshotfix Name Relaxin 应用黑屏修复
 local.relaxin.snapshotfix Description 修复 Relaxin 启动快照兼容问题；仅适用于 iOS 17.3.1，0.1.4 为待真机注入验证的测试版。
-local.relaxin.snapshotfix Section 系统工具
+local.relaxin.snapshotfix Section 工具
 local.relaxin.snapshotfix Author Rookib
 local.relaxin.snapshotfix Maintainer Rookib
 local.relaxin.snapshotfix Icon https://rookib.github.io/assets/packages/local.relaxin.snapshotfix.png
@@ -136,7 +136,7 @@ local.relaxin.snapshotfix Depiction https://rookib.github.io/depictions/local.re
 local.relaxin.snapshotfix SileoDepiction https://rookib.github.io/depictions/local.relaxin.snapshotfix.json
 local.smscodecopy Name 短信通知复制
 local.smscodecopy Description 在短信验证码通知中添加复制按钮，轻点即可复制，支持系统通知、锁屏通知及已适配的 Aperture 胶囊横幅。
-local.smscodecopy Section 通知工具
+local.smscodecopy Section 工具
 local.smscodecopy Author Rookib
 local.smscodecopy Maintainer Rookib
 local.smscodecopy Icon https://rookib.github.io/assets/packages/local.smscodecopy.png
@@ -144,9 +144,17 @@ local.smscodecopy Depiction https://rookib.github.io/depictions/local.smscodecop
 local.smscodecopy SileoDepiction https://rookib.github.io/depictions/local.smscodecopy.json
 local.sshwarningquiet Name RootHide SSH 提示静默
 local.sshwarningquiet Description 仅隐藏 RootHide 管理器的 SSH 安装提示，不改变 SSH 服务与配置。
-local.sshwarningquiet Section 系统工具
+local.sshwarningquiet Section 工具
 local.sshwarningquiet Author Rookib
 local.sshwarningquiet Maintainer Rookib
 local.sshwarningquiet Icon https://rookib.github.io/assets/packages/local.sshwarningquiet.png
 local.sshwarningquiet Depiction https://rookib.github.io/depictions/local.sshwarningquiet/
 local.sshwarningquiet SileoDepiction https://rookib.github.io/depictions/local.sshwarningquiet.json
+re.frida.server Name Frida 动态调试工具
+re.frida.server Description Frida 动态插桩服务端，配合电脑端工具进行应用运行分析与调试；随包服务端口为 2909。
+re.frida.server Section 工具
+re.frida.server Author Rookib
+re.frida.server Maintainer Rookib
+re.frida.server Icon https://rookib.github.io/assets/packages/re.frida.server.png
+re.frida.server Depiction https://rookib.github.io/depictions/re.frida.server/
+re.frida.server SileoDepiction https://rookib.github.io/depictions/re.frida.server.json

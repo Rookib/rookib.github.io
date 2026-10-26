@@ -58,9 +58,9 @@ def page(package, depiction):
         content.append('</section>')
     return ('<!doctype html>\n<html lang="zh-CN"><head><meta charset="utf-8">'
             '<meta name="viewport" content="width=device-width, initial-scale=1">'
-            f'<title>{title} · Rookib</title>'
+            f'<title>{title} · Hello Rookib</title>'
             '<link rel="stylesheet" href="../../assets/depiction.css"></head><body><main>'
-            '<nav><a href="../../">← Rookib 软件源</a></nav><header>'
+            '<nav><a href="../../">← Hello Rookib 软件源</a></nav><header>'
             f'<img src="../../{package["icon"]["path"]}" width="72" height="72" alt="">'
             f'<div><h1>{title}</h1><p>作者：Rookib</p></div></header>'
             + '\n'.join(content) +
@@ -108,7 +108,9 @@ def validate_index(path, entries, catalog):
         seen.add(identity)
         deb, original = expected[identity]
         for key, value in original.items():
-            if key.casefold() not in {k.casefold() for k in DISPLAY_FIELDS} and record.get(key.casefold()) != value:
+            # Size in a package control file may be stale after repacking.
+            # Validate the index size against the actual archive below instead.
+            if key.casefold() not in {k.casefold() for k in DISPLAY_FIELDS | {'Size'}} and record.get(key.casefold()) != value:
                 raise ValueError(f'Index changed {key}: {identity}')
         if record.get('sha256') != hashlib.sha256(deb.read_bytes()).hexdigest():
             raise ValueError(f'Wrong package hash: {identity}')
@@ -138,10 +140,10 @@ def package_listing(catalog):
                      f'{html.escape(package["section"])}</small></div></a>')
     return ('<!doctype html>\n<html lang="zh-CN"><head><meta charset="utf-8">'
             '<meta name="viewport" content="width=device-width, initial-scale=1">'
-            '<title>插件目录 · Rookib</title><link rel="stylesheet" href="assets/depiction.css">'
-            '</head><body><main><nav><a href="./">← Rookib 软件源</a></nav>'
-            '<header><img src="assets/avatar.png" width="72" height="72" alt="Rookib 蓝色动漫头像">'
-            '<div><h1>插件目录</h1><p>中文详情 · Rookib</p></div></header>'
+            '<title>插件目录 · Hello Rookib</title><link rel="stylesheet" href="assets/depiction.css">'
+            '</head><body><main><nav><a href="./">← Hello Rookib 软件源</a></nav>'
+            '<header><img src="assets/avatar.png" width="72" height="72" alt="Hello Rookib 蓝色动漫头像">'
+            '<div><h1>插件目录</h1><p>中文详情 · Hello Rookib</p></div></header>'
             + '\n'.join(cards) + '</main></body></html>\n')
 
 
