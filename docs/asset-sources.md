@@ -40,5 +40,6 @@
 | Touch-Dan | Touch-Viz 4.2 原图标 |
 | QQ 紧凑布局 | 用户提供的 QQ 9.3.50 包内主图标 `Payload/QQ.app/AppIcon-160x60@2x.png`，保持原始 PNG 字节 |
 | 短信通知复制 | 按用户要求用内置 image_gen 生成的专属图标：绿色短信气泡与复制符号；保留原始 PNG 字节 |
+| Frida 动态调试工具 | [Frida 官方网站图标](https://github.com/frida/frida-website/blob/main/_assets/favicon32.png)，保留 32×32 原始 PNG；[MIT 许可](licenses/frida-website-MIT.txt) |
 
 具体原包版本、成员路径及原图标 SHA-256 见 `config/packages.json`。通用图标由 `scripts/render-fallback-icons.py` 使用固定几何图形生成，可离线重新生成；本流程不会用通用图标替换已有原图标。

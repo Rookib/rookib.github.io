@@ -1,4 +1,4 @@
-# Rookib
+# Hello Rookib
 
 这是一个托管在 GitHub Pages 上的个人 iOS 越狱 APT 软件源，同时支持传统 rootful、现代 rootless 与 rootHide 软件包。
 
@@ -32,7 +32,7 @@ Architecture: iphoneos-arm64
 Description: 插件功能的简短中文说明。
 Maintainer: Rookib
 Author: Rookib
-Section: 系统插件
+Section: 工具
 ```
 
 三种目标环境使用不同架构：
@@ -76,7 +76,9 @@ rootHide 的 `.deb` 架构应为 `iphoneos-arm64e`，但这不代表每个 Mach-
 
 ## 展示与版本维护
 
-源名称、源图标、首页与包详情统一使用 Rookib。APT 覆盖只调整展示字段，不修改 `.deb` 内的包 ID、版本、依赖、架构、可执行文件或许可。新增版本直接追加到 `pool/`，保留旧版本；请勿把新版本的系统兼容条件套到旧版本。FolderDockGlass 按要求固定现有 1.1.0+opt.2，本次只更新源内展示。
+软件源分类统一为 `工具` 和 `微信插件`；微信相关插件使用后者，其余均归入 `工具`。
+
+软件源名称、首页与包详情导航统一使用 Hello Rookib；插件作者与源维护者继续显示 Rookib。APT 覆盖只调整展示字段，不修改 `.deb` 内的包 ID、版本、依赖、架构、可执行文件或许可。新增版本直接追加到 `pool/`，保留旧版本；请勿把新版本的系统兼容条件套到旧版本。FolderDockGlass 按要求固定现有 1.1.0+opt.2，本次只更新源内展示。
 
 原生详情与网页详情共享同一份 `depictions/*.json`。安装包的兼容范围、测试状态与更新记录应明确写入该文件；展示中的“当前版本”必须在源内实际存在。构建会阻止缺少中文元数据、图标丢失、原图标校验和变化、重复包身份、索引漏掉旧版本或改写依赖等问题。
 

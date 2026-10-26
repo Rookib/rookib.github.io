@@ -6,9 +6,9 @@ umask 022
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 SITE_DIR="${ROOT_DIR}/_site"
 OVERRIDE_FILE="${ROOT_DIR}/config/package-overrides"
-REPO_NAME="${REPO_NAME:-Rookib}"
-REPO_ORIGIN="${REPO_ORIGIN:-Rookib}"
-REPO_DESCRIPTION="${REPO_DESCRIPTION:-Rookib 中文 iOS 越狱软件源。}"
+REPO_NAME="${REPO_NAME:-Hello Rookib}"
+REPO_ORIGIN="${REPO_ORIGIN:-Hello Rookib}"
+REPO_DESCRIPTION="${REPO_DESCRIPTION:-Hello Rookib 中文 iOS 越狱软件源。}"
 
 python3 "${ROOT_DIR}/scripts/test-metadata.py"
 python3 "${ROOT_DIR}/scripts/build-metadata.py" --check --require-versions

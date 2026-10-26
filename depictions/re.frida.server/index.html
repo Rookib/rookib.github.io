@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Frida 动态调试工具 · Hello Rookib</title><link rel="stylesheet" href="../../assets/depiction.css"></head><body><main><nav><a href="../../">← Hello Rookib 软件源</a></nav><header><img src="../../assets/packages/re.frida.server.png" width="72" height="72" alt=""><div><h1>Frida 动态调试工具</h1><p>作者：Rookib</p></div></header><section><h2>描述</h2>
+<h3>主要功能</h3>
+<p>Frida 动态插桩服务端，配合电脑端 Frida 工具连接设备，进行应用运行分析、函数跟踪和调试。</p>
+<h3>软件包说明</h3>
+<ul><li>本源分发用户提供的 17.24.3 安装包，包架构标记为 iphoneos-arm64e；保留原始安装包内容。</li></ul>
+<ul><li>包内未声明最低或最高 iOS 版本，也未声明额外安装依赖。本次未进行真机安装验证，不能仅凭架构标记确认具体 iOS 或越狱环境兼容性。</li></ul>
+<ul><li>与 re.frida.server64 冲突，无法同时安装。</li></ul>
+<h3>服务与连接</h3>
+<ul><li>随包服务配置监听 0.0.0.0:2909，以 root 身份启动，并设置开机加载和自动保持运行。</li></ul>
+<ul><li>此监听地址接受所有 IPv4 网络接口上的连接，启动参数未设置认证或 TLS。请将调试访问限制在可信网络中。</li></ul>
+<ul><li>连接时使用本包配置的 2909 端口，并配套兼容的电脑端 Frida 版本。</li></ul>
+<h3>存储与原作者</h3>
+<ul><li>包内提供服务启动配置、frida-server 和 frida-agent.dylib。安装脚本使用系统默认临时目录，正常退出时清理，尚未验证临时输出是否均位于隐根目录。</li></ul>
+<ul><li>软件原作者为 Frida Developers；源内展示维护者为 Rookib。原包作者信息保留，官方网站：https://frida.re/。</li></ul>
+<p class="row"><span>当前版本</span><strong>17.24.3</strong></p>
+<p class="row"><span>作者</span><strong>Rookib</strong></p>
+</section>
+<section><h2>更新</h2>
+<h3>17.24.3</h3>
+<p>首次加入本源，提供中文简介及 Frida 官方网站图标。安装包内容保持原样。</p>
+</section><footer>源内展示作者统一为 Rookib；原始许可与版权声明保留在软件包及源码中。</footer></main></body></html>

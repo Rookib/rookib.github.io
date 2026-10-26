@@ -1,0 +1,84 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "tintColor": "#CC6A3B",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "主要功能",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Frida 动态插桩服务端，配合电脑端 Frida 工具连接设备，进行应用运行分析、函数跟踪和调试。",
+          "useSpacing": true,
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "软件包说明",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 本源分发用户提供的 17.24.3 安装包，包架构标记为 iphoneos-arm64e；保留原始安装包内容。\n\n- 包内未声明最低或最高 iOS 版本，也未声明额外安装依赖。本次未进行真机安装验证，不能仅凭架构标记确认具体 iOS 或越狱环境兼容性。\n\n- 与 re.frida.server64 冲突，无法同时安装。",
+          "useSpacing": true,
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "服务与连接",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 随包服务配置监听 0.0.0.0:2909，以 root 身份启动，并设置开机加载和自动保持运行。\n\n- 此监听地址接受所有 IPv4 网络接口上的连接，启动参数未设置认证或 TLS。请将调试访问限制在可信网络中。\n\n- 连接时使用本包配置的 2909 端口，并配套兼容的电脑端 Frida 版本。",
+          "useSpacing": true,
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "存储与原作者",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 包内提供服务启动配置、frida-server 和 frida-agent.dylib。安装脚本使用系统默认临时目录，正常退出时清理，尚未验证临时输出是否均位于隐根目录。\n\n- 软件原作者为 Frida Developers；源内展示维护者为 Rookib。原包作者信息保留，官方网站：https://frida.re/。",
+          "useSpacing": true,
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "当前版本",
+          "text": "17.24.3"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "作者",
+          "text": "Rookib"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "17.24.3",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "首次加入本源，提供中文简介及 Frida 官方网站图标。安装包内容保持原样。",
+          "useSpacing": true,
+          "useRawFormat": false
+        }
+      ]
+    }
+  ]
+}
