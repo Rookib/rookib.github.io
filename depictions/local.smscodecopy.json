@@ -1,0 +1,84 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "tintColor": "#16A660",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "主要功能",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 短信通知中识别到带明确提示词的 4–8 位数字验证码时，显示“复制”按钮。\n\n- 支持系统通知、锁屏通知及已适配的 Aperture 胶囊横幅。点击复制不会打开短信，并短暂显示“已复制”。\n\n- 只处理当前通知，不读取短信历史、不上传内容。点击后才写入本机剪贴板，约 3 分钟后到期。",
+          "useSpacing": true,
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "适配范围",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 适用于 iOS 16–17 的 RootHide 隐根环境，不适用于普通 Rootless 或 Rootful。\n\n- Aperture 适配限于已验证的版本和布局。字母数字混合码、歧义数字及部分短信模板可能不显示按钮。\n\n- 遵守系统通知预览设置，正文隐藏时不显示验证码按钮；尚未覆盖所有预览设置组合。",
+          "useSpacing": true,
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "安装与使用",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 安装后刷新桌面，无需单独设置。收到符合条件的短信通知后，轻点“复制”即可。\n\n- 如果此前安装了旧标识 local.codex.smscodecopy，请先卸载旧包，再安装本包并刷新桌面。",
+          "useSpacing": true,
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "验证情况",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 0.2.0 已在 iOS 17.3.1 正式安装，桌面 Aperture 胶囊与锁屏通知均已确认复制成功，点击复制不会打开短信。\n\n- 已通过 7 项通知模拟状态检查并确认启动加载。iOS 16.0.2 的历史实测版本为 0.1.3，0.2.0 尚未在该设备重测。",
+          "useSpacing": true,
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "当前版本",
+          "text": "0.2.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "作者",
+          "text": "Rookib"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "0.2.0",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 增加 iOS 17 通知接口适配，目标系统范围为 iOS 16–17。\n\n- 增加系统方法类型检查和延迟加载重试，保留原有通知复制按钮。\n\n- 本源提供 0.2.0，配套中文详情和专属图标。",
+          "useSpacing": true,
+          "useRawFormat": false
+        }
+      ]
+    }
+  ]
+}

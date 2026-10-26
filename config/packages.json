@@ -220,5 +220,17 @@
       "source": "用户提供的 QQ 9.3.50 / Payload/QQ.app/AppIcon-160x60@2x.png（CFBundlePrimaryIcon）",
       "sha256": "282506ac0f5b8f44577b4d13226b1f1001b2420a8cda0d1cc1ca9f835126cde0"
     }
+  },
+  "local.smscodecopy": {
+    "name": "短信通知复制",
+    "description": "在短信验证码通知中添加复制按钮，轻点即可复制，支持系统通知、锁屏通知及已适配的 Aperture 胶囊横幅。",
+    "section": "通知工具",
+    "author": "Rookib",
+    "icon": {
+      "path": "assets/packages/local.smscodecopy.png",
+      "kind": "custom-generated",
+      "source": "按用户要求为短信通知复制设计；内置 image_gen 生成的绿色短信气泡与复制符号，无文字。",
+      "sha256": "0e3accaa02cc64a5fcb9dc633e628a3d2e61fdd52f372215ab74955519fde602"
+    }
   }
 }

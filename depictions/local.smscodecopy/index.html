@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>短信通知复制 · Rookib</title><link rel="stylesheet" href="../../assets/depiction.css"></head><body><main><nav><a href="../../">← Rookib 软件源</a></nav><header><img src="../../assets/packages/local.smscodecopy.png" width="72" height="72" alt=""><div><h1>短信通知复制</h1><p>作者：Rookib</p></div></header><section><h2>描述</h2>
+<h3>主要功能</h3>
+<ul><li>短信通知中识别到带明确提示词的 4–8 位数字验证码时，显示“复制”按钮。</li></ul>
+<ul><li>支持系统通知、锁屏通知及已适配的 Aperture 胶囊横幅。点击复制不会打开短信，并短暂显示“已复制”。</li></ul>
+<ul><li>只处理当前通知，不读取短信历史、不上传内容。点击后才写入本机剪贴板，约 3 分钟后到期。</li></ul>
+<h3>适配范围</h3>
+<ul><li>适用于 iOS 16–17 的 RootHide 隐根环境，不适用于普通 Rootless 或 Rootful。</li></ul>
+<ul><li>Aperture 适配限于已验证的版本和布局。字母数字混合码、歧义数字及部分短信模板可能不显示按钮。</li></ul>
+<ul><li>遵守系统通知预览设置，正文隐藏时不显示验证码按钮；尚未覆盖所有预览设置组合。</li></ul>
+<h3>安装与使用</h3>
+<ul><li>安装后刷新桌面，无需单独设置。收到符合条件的短信通知后，轻点“复制”即可。</li></ul>
+<ul><li>如果此前安装了旧标识 local.codex.smscodecopy，请先卸载旧包，再安装本包并刷新桌面。</li></ul>
+<h3>验证情况</h3>
+<ul><li>0.2.0 已在 iOS 17.3.1 正式安装，桌面 Aperture 胶囊与锁屏通知均已确认复制成功，点击复制不会打开短信。</li></ul>
+<ul><li>已通过 7 项通知模拟状态检查并确认启动加载。iOS 16.0.2 的历史实测版本为 0.1.3，0.2.0 尚未在该设备重测。</li></ul>
+<p class="row"><span>当前版本</span><strong>0.2.0</strong></p>
+<p class="row"><span>作者</span><strong>Rookib</strong></p>
+</section>
+<section><h2>更新</h2>
+<h3>0.2.0</h3>
+<ul><li>增加 iOS 17 通知接口适配，目标系统范围为 iOS 16–17。</li></ul>
+<ul><li>增加系统方法类型检查和延迟加载重试，保留原有通知复制按钮。</li></ul>
+<ul><li>本源提供 0.2.0，配套中文详情和专属图标。</li></ul>
+</section><footer>源内展示作者统一为 Rookib；原始许可与版权声明保留在软件包及源码中。</footer></main></body></html>
