@@ -185,7 +185,7 @@
   },
   "local.qqcompact": {
     "name": "QQ 紧凑布局",
-    "description": "QQ 9.3.50 紧凑布局，默认缩放 85%，支持原版及已适配的多开 QQ。",
+    "description": "QQ 9.3.50 紧凑布局，默认缩放 85%，支持多开及 HBID 修改标识符，保留版本和程序校验。",
     "section": "工具",
     "author": "Rookib",
     "icon": {
