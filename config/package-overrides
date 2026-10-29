@@ -38,22 +38,6 @@ com.25mao.leftPan Maintainer Rookib
 com.25mao.leftPan Icon https://rookib.github.io/assets/packages/com.25mao.leftPan.png
 com.25mao.leftPan Depiction https://rookib.github.io/depictions/com.25mao.leftPan/
 com.25mao.leftPan SileoDepiction https://rookib.github.io/depictions/com.25mao.leftPan.json
-com.binglan.kongzhidiy Name CCPrimeX 控制中心美化
-com.binglan.kongzhidiy Description 调整控制中心外观、布局和图标素材。
-com.binglan.kongzhidiy Section 工具
-com.binglan.kongzhidiy Author Rookib
-com.binglan.kongzhidiy Maintainer Rookib
-com.binglan.kongzhidiy Icon https://rookib.github.io/assets/packages/com.binglan.kongzhidiy.png
-com.binglan.kongzhidiy Depiction https://rookib.github.io/depictions/com.binglan.kongzhidiy/
-com.binglan.kongzhidiy SileoDepiction https://rookib.github.io/depictions/com.binglan.kongzhidiy.json
-com.binglanqjsy.deb Name 全局水印 Pro
-com.binglanqjsy.deb Description 为截图添加水印与个性化显示效果。
-com.binglanqjsy.deb Section 工具
-com.binglanqjsy.deb Author Rookib
-com.binglanqjsy.deb Maintainer Rookib
-com.binglanqjsy.deb Icon https://rookib.github.io/assets/packages/com.binglanqjsy.deb.png
-com.binglanqjsy.deb Depiction https://rookib.github.io/depictions/com.binglanqjsy.deb/
-com.binglanqjsy.deb SileoDepiction https://rookib.github.io/depictions/com.binglanqjsy.deb.json
 com.eason.fivegadvanced Name Hello Eason 状态栏增强
 com.eason.fivegadvanced Description VPN 状态上色、隐藏 VPN、5GA 与静音显示增强，适配 iOS 16–17。
 com.eason.fivegadvanced Section 工具

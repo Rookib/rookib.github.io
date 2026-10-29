@@ -26,8 +26,6 @@
 | StayShot 长截图引擎 | 源内通用图标（非插件原图标） |
 | CocoaTop64 中文版 | 原插件图标 |
 | Hello Left 左滑返回 | 原插件图标 |
-| CCPrimeX 控制中心美化 | 原插件图标 |
-| 全局水印 Pro | 原插件图标 |
 | Hello Eason 状态栏增强 | 原插件图标 |
 | FolderDockGlass 玻璃效果 | 源内通用图标（非插件原图标） |
 | MisakaHelper 微信助手 | 源内通用图标（非插件原图标） |
