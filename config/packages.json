@@ -61,32 +61,6 @@
       "sha256": "80931f6c70b3ef294d19c183a83923807e65ad7a6d3421363fc0172727e30d3d"
     }
   },
-  "com.binglan.kongzhidiy": {
-    "name": "CCPrimeX 控制中心美化",
-    "description": "调整控制中心外观、布局和图标素材。",
-    "section": "工具",
-    "author": "Rookib",
-    "icon": {
-      "path": "assets/packages/com.binglan.kongzhidiy.png",
-      "kind": "package-original",
-      "sourcePackage": "com.binglan.kongzhidiy 2.3.6-end",
-      "sourceMember": "var/jb/Library/PreferenceBundles/binglanKongzhiPrefs.bundle/icon@3x.png",
-      "sha256": "97f901027492f49f81db42931bc68058ac8f1a7942a1894e8046db1012576cd5"
-    }
-  },
-  "com.binglanqjsy.deb": {
-    "name": "全局水印 Pro",
-    "description": "为截图添加水印与个性化显示效果。",
-    "section": "工具",
-    "author": "Rookib",
-    "icon": {
-      "path": "assets/packages/com.binglanqjsy.deb.png",
-      "kind": "package-original",
-      "sourcePackage": "com.binglanqjsy.deb 4.1.7-end",
-      "sourceMember": "var/jb/Library/PreferenceBundles/blqjsyPrefs.bundle/icon@2x.png",
-      "sha256": "228e92a07c816982f07437cbb995f178ad2f1ca15304bdacebc490199d8dc574"
-    }
-  },
   "com.eason.fivegadvanced": {
     "name": "Hello Eason 状态栏增强",
     "description": "VPN 状态上色、隐藏 VPN、5GA 与静音显示增强，适配 iOS 16–17。",
