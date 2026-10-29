@@ -26,7 +26,7 @@
 | StayShot 长截图引擎 | 源内通用图标（非插件原图标） |
 | CocoaTop64 中文版 | 原插件图标 |
 | Hello Left 左滑返回 | 原插件图标 |
-| Hello Eason 状态栏增强 | 原插件图标 |
+| Hidden VPN | 用户提供的图标，随 `com.eason.fivegadvanced 2.6.9` 安装包提供；源内使用 `Library/PreferenceBundles/FiveGAdvancedPrefs.bundle/icon@3x.png` |
 | FolderDockGlass 玻璃效果 | 源内通用图标（非插件原图标） |
 | MisakaHelper 微信助手 | 源内通用图标（非插件原图标） |
 | 快捷指令闪退修复 | 源内通用图标（非插件原图标） |
