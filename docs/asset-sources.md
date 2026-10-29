@@ -2,9 +2,11 @@
 
 ## 软件源头像
 
-用户提供的蓝色动漫头像，保留完整画面，仅从 JPEG 无裁剪转为 PNG。`assets/avatar.png`、`CydiaIcon.png` 与 `SileoIcon.png` 使用相同内容。
+2026-10-29 更新为用户提供的黑发人物头像（460×460），保留完整画面，仅从 JPEG 无裁剪转为 PNG。`assets/avatar.png`、`CydiaIcon.png` 与 `SileoIcon.png` 使用相同内容。
 
 `CydiaIcon@2x.png` 与 `CydiaIcon@3x.png` 是相同原图的字节副本，为 Sileo 优先请求的文件名提供完整画质。两种名称也发布到旧 `/jailbreak-repo/` 路径。Sileo 不使用 Release 的 Icon 字段读取源列表头像；已加载的源名称与头像需彻底退出并重开 Sileo 才会重新读取。
+
+当前头像 PNG SHA-256：`42058af9debcf0505649de2461c9500963935d080238aacb5115b9ef05882e8f`。网页头像、网站图标和分享图使用相同版本参数刷新缓存。
 
 ## 软件源横幅
 

@@ -142,7 +142,7 @@ def package_listing(catalog):
             '<meta name="viewport" content="width=device-width, initial-scale=1">'
             '<title>插件目录 · Hello Rookib</title><link rel="stylesheet" href="assets/depiction.css">'
             '</head><body><main><nav><a href="./">← Hello Rookib 软件源</a></nav>'
-            '<header><img src="assets/avatar.png" width="72" height="72" alt="Hello Rookib 蓝色动漫头像">'
+            '<header><img src="assets/avatar.png?v=42058af9debc" width="72" height="72" alt="Hello Rookib 源头像">'
             '<div><h1>插件目录</h1><p>中文详情 · Hello Rookib</p></div></header>'
             + '\n'.join(cards) + '</main></body></html>\n')
 
