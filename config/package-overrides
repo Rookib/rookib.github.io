@@ -103,7 +103,7 @@ io.github.suckdrygod.touchdan Icon https://rookib.github.io/assets/packages/io.g
 io.github.suckdrygod.touchdan Depiction https://rookib.github.io/depictions/io.github.suckdrygod.touchdan/
 io.github.suckdrygod.touchdan SileoDepiction https://rookib.github.io/depictions/io.github.suckdrygod.touchdan.json
 local.qqcompact Name QQ 紧凑布局
-local.qqcompact Description QQ 9.3.50 紧凑布局，默认缩放 85%，支持原版及已适配的多开 QQ。
+local.qqcompact Description QQ 9.3.50 紧凑布局，默认缩放 85%，支持多开及 HBID 修改标识符，保留版本和程序校验。
 local.qqcompact Section 工具
 local.qqcompact Author Rookib
 local.qqcompact Maintainer Rookib

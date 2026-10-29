@@ -1,0 +1,97 @@
+{
+  "version": "0.1.3",
+  "defaultScale": 0.85,
+  "qqVersion": "9.3.50",
+  "qqBuild": "9.3.50.604",
+  "bundleIdentifierPolicy": "No fixed allowlist; arbitrary clone/HBID identifiers are accepted only when version and QQ executable/interface guards match.",
+  "loaderFilter": {
+    "Classes": [
+      "QQDynamicFontManager"
+    ]
+  },
+  "dylibSHA256": "7d48f9b8cdb586f4cbcb2fd9812b8cd0fff24cb003040fbf886169833f969fb0",
+  "architectures": [
+    "arm64",
+    "arm64e"
+  ],
+  "change": "Remove fixed bundle IDs from runtime, package filters and optional device diagnostics; retain exact QQ version/build, image UUID, code-byte, method and writable-slot checks.",
+  "tests": {
+    "passed": 60,
+    "failed": 0,
+    "skipped": 0
+  },
+  "deviceTest": {
+    "version": "0.1.3",
+    "verified": false,
+    "reason": "本次完成构建、60 项主机回归及真实 QQ 程序样本校验；0.1.3 尚未进行真机验证。"
+  },
+  "historicalRuntimeEvidence": [
+    {
+      "version": "0.1.2",
+      "os": "iOS 16.0.2 (20A380)",
+      "qqBuild": "9.3.50.604",
+      "installation": "TrollFools existing app-local dylib replacement",
+      "apps": [
+        {
+          "bundle": "com.tencent.mqq.12",
+          "active": true,
+          "scale": 0.85,
+          "fontScaleCalls": 1131,
+          "dimensionCalls": 32,
+          "centralScaleCalls": 54,
+          "freshReceipt": true,
+          "processAlive": true
+        },
+        {
+          "bundle": "com.tencent.mqq.13",
+          "active": true,
+          "scale": 0.85,
+          "fontScaleCalls": 172,
+          "dimensionCalls": 28,
+          "centralScaleCalls": 62,
+          "freshReceipt": true,
+          "processAlive": true
+        }
+      ],
+      "limits": "已验证两个多开的启动与目标入口实际调用，用户分别确认两个多开布局正常；所有页面与长期稳定性仍需观察。新版未在 iOS 17 重测。",
+      "userConfirmedVisualEffect": true
+    },
+    {
+      "version": "0.1.1",
+      "os": "17.3.1 (21D61)",
+      "bundle": "com.tencent.mqq",
+      "scale": 0.85,
+      "userConfirmedVisualEffect": true,
+      "record": "evidence/device-test-ios17.txt"
+    },
+    {
+      "version": "pre-0.1.1 build",
+      "os": "16.0.2",
+      "bundle": "com.tencent.mqq",
+      "scale": 0.85,
+      "record": "evidence/device-test.txt"
+    }
+  ],
+  "files": [
+    {
+      "path": "assets/downloads/qqcompact/0.1.3/QQCompact.dylib",
+      "size": 232224,
+      "sha256": "7d48f9b8cdb586f4cbcb2fd9812b8cd0fff24cb003040fbf886169833f969fb0"
+    },
+    {
+      "path": "pool/local.qqcompact_0.1.3_rootful_iphoneos-arm.deb",
+      "size": 37272,
+      "sha256": "b1e09a188b579f1610462b80d98047c3f70506409a17c568eb605db82ae79286"
+    },
+    {
+      "path": "pool/local.qqcompact_0.1.3_roothide_iphoneos-arm64e.deb",
+      "size": 37324,
+      "sha256": "a1809550b3e88d27245317461a5b76c2b6b7ad8bbb9d5726b658f31ca75f30ac"
+    },
+    {
+      "path": "pool/local.qqcompact_0.1.3_rootless_iphoneos-arm64.deb",
+      "size": 37312,
+      "sha256": "25f2179937873eb507f51684f897bfbb5d8ffa77b0f36f98ef1fe7fde3625950"
+    }
+  ]
+}
