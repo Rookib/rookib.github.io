@@ -38,8 +38,8 @@ com.25mao.leftPan Maintainer Rookib
 com.25mao.leftPan Icon https://rookib.github.io/assets/packages/com.25mao.leftPan.png
 com.25mao.leftPan Depiction https://rookib.github.io/depictions/com.25mao.leftPan/
 com.25mao.leftPan SileoDepiction https://rookib.github.io/depictions/com.25mao.leftPan.json
-com.eason.fivegadvanced Name Hello Eason 状态栏增强
-com.eason.fivegadvanced Description VPN 状态上色、隐藏 VPN、5GA 与静音显示增强，适配 iOS 16–17。
+com.eason.fivegadvanced Name Hidden VPN
+com.eason.fivegadvanced Description 每次连接 VPN 时显示系统原生标识约 3 秒，随后隐藏并恢复网络颜色；重启 SpringBoard 后同样生效，适配 iOS 16–17。
 com.eason.fivegadvanced Section 工具
 com.eason.fivegadvanced Author Rookib
 com.eason.fivegadvanced Maintainer Rookib

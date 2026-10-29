@@ -1,27 +1,39 @@
 <!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Hello Eason 状态栏增强 · Hello Rookib</title><link rel="stylesheet" href="../../assets/depiction.css"></head><body><main><nav><a href="../../">← Hello Rookib 软件源</a></nav><header><img src="../../assets/packages/com.eason.fivegadvanced.png" width="72" height="72" alt=""><div><h1>Hello Eason 状态栏增强</h1><p>作者：Rookib</p></div></header><section><h2>描述</h2>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Hidden VPN · Hello Rookib</title><link rel="stylesheet" href="../../assets/depiction.css"></head><body><main><nav><a href="../../">← Hello Rookib 软件源</a></nav><header><img src="../../assets/packages/com.eason.fivegadvanced.png" width="72" height="72" alt=""><div><h1>Hidden VPN</h1><p>作者：Rookib</p></div></header><section><h2>描述</h2>
 <h3>主要功能</h3>
-<ul><li>根据真实 VPN 状态，为 Wi‑Fi 或蜂窝网络制式上色。</li></ul>
+<ul><li>根据真实 <strong>VPN</strong> 状态，为 Wi-Fi 或蜂窝网络制式上色。</li></ul>
 <ul><li>浅色模式与深色模式可以分别选择颜色。</li></ul>
-<ul><li>颜色指示、反转指示、隐藏 VPN 图标和 5GA 显示均为独立开关。</li></ul>
-<ul><li>VPN 开启并注销 SpringBoard 后，使用系统原生 VPN 胶囊完成恢复过渡。</li></ul>
-<ul><li>在前台应用中开启或关闭 VPN 时，颜色会立即更新。</li></ul>
-<ul><li>提供静音状态栏图标及“静音模式”控制中心模组。</li></ul>
+<ul><li>颜色指示、反转指示、隐藏常驻 VPN 标志和 5GA 显示均为独立开关。</li></ul>
+<ul><li>开启隐藏后，每次真实连接 VPN，或 SpringBoard 启动后首次确认已连接时，先显示系统原生 VPN 标识约 3 秒，再隐藏常驻标识并恢复网络颜色。</li></ul>
+<ul><li>在前台应用中也会按此顺序显示，无需切换到桌面；断开 VPN 时及时恢复颜色。</li></ul>
 <hr>
 <h3>机型适配</h3>
-<ul><li><strong>iPhone 14 系列 · iOS 16</strong>：补充静音状态栏图标，并提供“静音模式”控制中心模组。</li></ul>
-<ul><li><strong>iPhone 15 系列 · iOS 17</strong>：使用系统原生静音图标，不重复加载补充图标或控制中心模组。</li></ul>
+<ul><li><strong>iPhone 14 系列 · iOS 16</strong>  </li></ul>
+<ul><li><strong>iPhone 15 系列 · iOS 17</strong>  </li></ul>
+<ul><li>VPN 连接、断开与切换 App 测试已在 iOS 16.0.2 和 iOS 17.3.1 真机通过。当前安装包为 RootHide 版本。</li></ul>
 <hr>
 <h3>使用说明</h3>
-<ul><li>静音显示、VPN 图标显示与 VPN 颜色指示互相独立。</li></ul>
-<ul><li>“隐藏 VPN”只隐藏状态栏图标，不会断开 VPN。</li></ul>
-<ul><li>Wi‑Fi 下为 Wi‑Fi 标志上色；蜂窝网络下为 4G、5G 或 LTE 制式文字上色。</li></ul>
-<ul><li>插件仅改变显示效果，不会修改真实 VPN、蜂窝网络或静音状态。</li></ul>
-<p class="row"><span>当前版本</span><strong>2.6.7</strong></p>
+<ul><li>静音显示、VPN 标识显示与 VPN 颜色指示互相独立。</li></ul>
+<ul><li>开启“隐藏常驻 VPN 标志”后，连接时仍会短暂显示系统标识约 3 秒；关闭此开关后，标识按系统规则显示。此设置不会断开 VPN。</li></ul>
+<ul><li>Wi-Fi 连接时为 Wi-Fi 标志上色；蜂窝网络下为 4G、5G 或 LTE 制式文字上色。</li></ul>
+<ul><li>插件只改变显示效果，不会修改真实 VPN 连接、蜂窝网络类型或系统静音状态。</li></ul>
+<p class="row"><span>当前版本</span><strong>2.6.9</strong></p>
 <p class="row"><span>支持系统</span><strong>iOS 16–17</strong></p>
 <p class="row"><span>作者</span><strong>Rookib</strong></p>
 </section>
 <section><h2>更新</h2>
+<h3>2.6.9</h3>
+<ul><li>软件包及设置显示名称改为 Hidden VPN。</li></ul>
+<ul><li>更新为用户提供的蓝色 Wi-Fi 盾牌图标，保留原图内容与比例。</li></ul>
+<ul><li>保留原有软件包标识和设置，升级继续沿用当前配置。</li></ul>
+<ul><li>VPN 提示、网络颜色、5GA 和静音功能与 2.6.8 保持一致。</li></ul>
+<hr>
+<h3>2.6.8</h3>
+<ul><li>统一普通连接与 SpringBoard 启动恢复时的显示顺序：先显示系统原生 VPN 标识约 3 秒，再隐藏常驻标识并恢复 Wi-Fi 或蜂窝网络颜色。</li></ul>
+<ul><li>约 3 秒为插件的显示策略，不代表系统动画时长；保留真实 vpnEntry，不合成或改写 VPN 连接状态。</li></ul>
+<ul><li>重复状态更新不会延长显示时间；快速断开重连时，上一轮的延时回调不会提前关闭本轮标识。</li></ul>
+<ul><li>开关更名为“隐藏常驻 VPN 标志”；关闭后，VPN 标识按系统原有规则显示。</li></ul>
+<hr>
 <h3>2.6.7</h3>
 <ul><li>新增 Sileo 原生“描述 / 更新”双标签页面。</li></ul>
 <ul><li>按主要功能、机型适配和使用说明重新整理内容。</li></ul>

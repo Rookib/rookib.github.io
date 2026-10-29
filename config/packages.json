@@ -62,16 +62,16 @@
     }
   },
   "com.eason.fivegadvanced": {
-    "name": "Hello Eason 状态栏增强",
-    "description": "VPN 状态上色、隐藏 VPN、5GA 与静音显示增强，适配 iOS 16–17。",
+    "name": "Hidden VPN",
+    "description": "每次连接 VPN 时显示系统原生标识约 3 秒，随后隐藏并恢复网络颜色；重启 SpringBoard 后同样生效，适配 iOS 16–17。",
     "section": "工具",
     "author": "Rookib",
     "icon": {
       "path": "assets/packages/com.eason.fivegadvanced.png",
       "kind": "package-original",
-      "sourcePackage": "com.eason.fivegadvanced 2.6.7",
+      "sourcePackage": "com.eason.fivegadvanced 2.6.9",
       "sourceMember": "Library/PreferenceBundles/FiveGAdvancedPrefs.bundle/icon@3x.png",
-      "sha256": "21f88bdff89e079c66e8d249d2fbd3ceda8fd36a75a9cca18c065343964c9983"
+      "sha256": "fc46145e567e7c51cec17cc460405fcddd047b5fbbf9015dde10e9a35840072d"
     }
   },
   "com.eason.folderdockglass": {
