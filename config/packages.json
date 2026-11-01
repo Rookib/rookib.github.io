@@ -209,7 +209,7 @@
   },
   "local.smscodecopy": {
     "name": "短信通知复制",
-    "description": "在短信验证码通知中添加复制按钮，轻点即可复制，支持系统通知、锁屏通知及已适配的 Aperture 胶囊横幅。",
+    "description": "在短信验证码通知中添加复制按钮，支持系统通知、锁屏通知及已适配的 Aperture 胶囊横幅和重新展开的灵动岛卡片。",
     "section": "工具",
     "author": "Rookib",
     "icon": {
