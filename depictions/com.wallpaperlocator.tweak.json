@@ -1,0 +1,84 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "tintColor": "#16A660",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "主要功能",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "在设置的照片墙纸编辑器中打开当前墙纸的相册原图。锁屏和主屏幕可以使用不同照片，两侧分别定位。",
+          "useSpacing": true,
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "适配范围",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "支持 iOS 16.0.2、17.3.1 的 rootHide 环境，适用于单张照片墙纸。",
+          "useSpacing": true,
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "使用方法",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "打开「设置 → 墙纸」，点锁屏或主屏幕的「自定」。在全屏照片编辑器中点击选图按钮，选择「在照片中定位」并确认，即可进入对应单张照片，无需预先打开“照片”。",
+          "useSpacing": true,
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "照片访问",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "原照片已删除、已隐藏或当前无权访问时会停止定位，壁纸与相册内容均不会被修改。",
+          "useSpacing": true,
+          "useRawFormat": false
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "当前版本",
+          "text": "0.1.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "作者",
+          "text": "Rookib"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "0.1.0",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "首次正式发布，支持从锁屏和主屏幕的单张照片墙纸定位原图。",
+          "useSpacing": true,
+          "useRawFormat": false
+        }
+      ]
+    }
+  ]
+}
