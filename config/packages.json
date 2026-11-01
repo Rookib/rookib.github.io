@@ -147,6 +147,18 @@
       "sha256": "1eac520121e4745737df182b25d8a05d44825a9e38f86943b9054b05d968f079"
     }
   },
+  "com.wallpaperlocator.tweak": {
+    "name": "壁纸定位",
+    "description": "从锁屏或主屏幕的照片墙纸编辑器，直接在“照片”中打开当前墙纸的原图。",
+    "section": "工具",
+    "author": "Rookib",
+    "icon": {
+      "path": "assets/packages/com.wallpaperlocator.tweak.png",
+      "kind": "upstream-original",
+      "source": "Apple 系统“照片”图标，取自 iOS 17.3.1（21D61）MobileSlideShow.app/AppIcon60x60@2x.png，已转换为标准 PNG。",
+      "sha256": "cdf784ba0d9f304ec7be28f564594cfcc8e905c069064bbec74b85f0b638b56c"
+    }
+  },
   "local.relaxin.snapshotfix": {
     "name": "Relaxin 应用黑屏修复",
     "description": "修复 Relaxin 启动快照兼容问题；仅适用于 iOS 17.3.1，0.1.4 为待真机注入验证的测试版。",

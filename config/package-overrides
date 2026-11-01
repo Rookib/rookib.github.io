@@ -94,6 +94,14 @@ com.eason.yikey Maintainer Rookib
 com.eason.yikey Icon https://rookib.github.io/assets/packages/com.eason.yikey.png
 com.eason.yikey Depiction https://rookib.github.io/depictions/com.eason.yikey/
 com.eason.yikey SileoDepiction https://rookib.github.io/depictions/com.eason.yikey.json
+com.wallpaperlocator.tweak Name 壁纸定位
+com.wallpaperlocator.tweak Description 从锁屏或主屏幕的照片墙纸编辑器，直接在“照片”中打开当前墙纸的原图。
+com.wallpaperlocator.tweak Section 工具
+com.wallpaperlocator.tweak Author Rookib
+com.wallpaperlocator.tweak Maintainer Rookib
+com.wallpaperlocator.tweak Icon https://rookib.github.io/assets/packages/com.wallpaperlocator.tweak.png
+com.wallpaperlocator.tweak Depiction https://rookib.github.io/depictions/com.wallpaperlocator.tweak/
+com.wallpaperlocator.tweak SileoDepiction https://rookib.github.io/depictions/com.wallpaperlocator.tweak.json
 io.github.suckdrygod.touchdan Name Touch-Dan
 io.github.suckdrygod.touchdan Description 触点与滑动轨迹显示，提供录屏模式、颜色、大小及图片效果设置。
 io.github.suckdrygod.touchdan Section 工具
