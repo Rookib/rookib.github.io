@@ -25,7 +25,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- 本源分发用户提供的 17.24.3 安装包，包架构标记为 iphoneos-arm64e；保留原始安装包内容。\n\n- 包内未声明最低或最高 iOS 版本，也未声明额外安装依赖。本次未进行真机安装验证，不能仅凭架构标记确认具体 iOS 或越狱环境兼容性。\n\n- 与 re.frida.server64 冲突，无法同时安装。",
+          "markdown": "- 本源分发用户提供的 17.25.2 安装包，包架构标记为 iphoneos-arm64e；保留原始安装包内容。\n\n- 包内未声明最低或最高 iOS 版本，也未声明额外安装依赖。本次未进行真机安装验证，不能仅凭架构标记确认具体 iOS 或越狱环境兼容性。\n\n- 与 re.frida.server64 冲突，无法同时安装。",
           "useSpacing": true,
           "useRawFormat": false
         },
@@ -36,7 +36,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- 随包服务配置监听 0.0.0.0:2909，以 root 身份启动，并设置开机加载和自动保持运行。\n\n- 此监听地址接受所有 IPv4 网络接口上的连接，启动参数未设置认证或 TLS。请将调试访问限制在可信网络中。\n\n- 连接时使用本包配置的 2909 端口，并配套兼容的电脑端 Frida 版本。",
+          "markdown": "- 17.25.2 与源内 17.24.3 的启动配置相同，固定监听 0.0.0.0:2909，以 root 身份运行，并设置开机加载和自动保持运行。\n\n- 包内安装与卸载脚本未包含随机分配或自动轮换端口的逻辑。升级会安装随包启动配置；如果之前手动改过端口，可能恢复为 2909。\n\n- 此监听地址接受所有 IPv4 网络接口上的连接，启动参数未设置认证或 TLS。请将调试访问限制在可信网络中。\n\n- 连接时使用 2909 端口，并配套兼容的电脑端 Frida 版本。",
           "useSpacing": true,
           "useRawFormat": false
         },
@@ -54,7 +54,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "当前版本",
-          "text": "17.24.3"
+          "text": "17.25.2"
         },
         {
           "class": "DepictionTableTextView",
@@ -67,6 +67,17 @@
       "class": "DepictionStackView",
       "tabname": "更新",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "17.25.2",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "更新用户提供的 Frida 17.25.2 安装包，保留原始包内容。已核对安装脚本与启动配置：固定端口仍为 2909，未发现随机改端口逻辑；手动修改过的端口可能被随包配置覆盖。保留源内 17.24.3。本次仅进行安装包静态检查与发布核验，未在手机安装测试。",
+          "useSpacing": true,
+          "useRawFormat": false
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "17.24.3",
