@@ -4,6 +4,7 @@
 <ul><li>提供抖音主页修复、访客数量设置、认证显示与专属 ID 自定义，保留专属 ID 皇冠和原插件倍速功能。</li></ul>
 <ul><li>使用 v16 稳定程序，主插件、布局库及所需资源均已包含。</li></ul>
 <ul><li>本地功能不再依赖原授权服务器响应，保留本地文件完整性检查与账号切换清理。</li></ul>
+<ul><li>浮动面板的专属 ID 支持长按切换八种铭牌样式。</li></ul>
 <h3>适配范围</h3>
 <ul><li>适用于 iOS 16.0 及以上的 RootHide 隐根环境，软件包架构为 iphoneos-arm64e；普通 Rootless / Rootful 请勿安装本直装版。</li></ul>
 <ul><li>支持抖音自定义 Bundle ID；原生主页布局修复按已适配的宿主构建启用。本轮已验证抖音 41.1.0（411016），其他抖音/iOS 版本仍需适配验证。</li></ul>
@@ -11,18 +12,20 @@
 <p>1. 在已有 RootHide 隐根环境的设备上，通过 Sileo 安装本包。</p>
 <p>2. 先移除同一抖音 App 内旧的 Dtools 巨魔注入副本，避免重复加载；在 RootHide App List 中允许抖音注入。</p>
 <p>3. 安装完成后彻底退出并重新打开抖音，在设置页进入 Dtools。</p>
-<p class="row"><a href="https://rookib.github.io/pool/com.Dtool.arm64e_41.1.1-16+sileo1+repo1_iphoneos-arm64e.deb">下载 Sileo 直装包</a></p>
+<p class="row"><a href="https://rookib.github.io/pool/com.Dtool.arm64e_41.1.1-16+sileo1+repo2_iphoneos-arm64e.deb">下载 Sileo 直装包</a></p>
 <p class="row"><a href="https://rookib.github.io/depictions/local.dtools.aweme/">查看巨魔注入版</a></p>
 <h3>验证情况</h3>
-<ul><li>v16 两种加载方式已在 iPhone 14 Pro / iOS 16.0.2 / 抖音 41.1.0 完成断网冷启动与面板操作检查，未出现插件校验或授权异常。</li></ul>
-<ul><li>本次源内修订仅统一名称、作者、中文说明和详情地址；全部程序、资源及安装路径与已验证 v16 逐字节相同。</li></ul>
-<ul><li>注入版已验证 App 内三库运行；本轮未分别重做两种注入器的导入界面操作。联网资料刷新、媒体下载及 AI 接口仍需要网络和相应服务配置。</li></ul>
-<ul><li>不包含暂缓的直播礼物、财富等级及铭牌实验功能。顶部头像挂件的视觉显示仍有已知问题；抖音升级后可能需要继续适配。</li></ul>
-<p class="row"><span>当前版本</span><strong>41.1.1-16+sileo1+repo1</strong></p>
+<ul><li>本次 Sileo 直装包已通过包结构、文件校验和及签名代码页检查。相同修复在完整注入版上完成了真机验证。</li></ul>
+<ul><li>验证了新铭牌首次选择可用及重启后保留，测试期间使用了现有 App。</li></ul>
+<ul><li>iOS 26 专属双击效果需要对应系统。联网资料刷新、媒体下载及 AI 接口仍需要各自的服务。</li></ul>
+<p class="row"><span>当前版本</span><strong>41.1.1-16+sileo1+repo2</strong></p>
 <p class="row"><span>功能版本</span><strong>v16</strong></p>
 <p class="row"><span>作者</span><strong>Rookib</strong></p>
 </section>
 <section><h2>更新</h2>
+<h3>41.1.1-16+sileo1+repo2 · 2026-11-16</h3>
+<ul><li>浮动面板中长按带皇冠的「专属 ID」，可切换八种铭牌样式。该入口首次打开即可使用，无需导入配置，样式在重启后保留。</li></ul>
+<ul><li>修复 SVIP 头像挂件开启后仍隐藏的问题，名牌光效切换时同步更新头像上的挂件。</li></ul>
 <h3>41.1.1-16+sileo1+repo1 · 2026-11-16</h3>
 <ul><li>加入 Hello Rookib 软件源，统一作者、分类、中文详情和下载入口。</li></ul>
 <ul><li>功能保持 v16，新增源内发布修订号以区分缓存；未改动任何程序或资源。</li></ul>

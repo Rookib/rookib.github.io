@@ -1,0 +1,38 @@
+{
+  "functionalVersion": "v16",
+  "publicationDate": "2026-11-16",
+  "packages": [
+    {
+      "variant": "sileo",
+      "package": "com.Dtool.arm64e",
+      "version": "41.1.1-16+sileo1+repo2",
+      "file": "com.Dtool.arm64e_41.1.1-16+sileo1+repo2_iphoneos-arm64e.deb",
+      "originalSHA256": "5afcc78c6698ad19c34e359b84e2b02762564760c415a866b69c25ed5b392ae7",
+      "sha256": "ea60d6199394b87c8f7a4e5b0bdac6df6023ac2ed9f708842ea38dde07dd20df",
+      "bytes": 5669990,
+      "payloadArchiveSHA256": "f8804acb7013166715fbe8dd8ef5095e4c91dd0721d6b5166d8444dbdcdfc8ef",
+      "payloadMatchesTestedBuild": true,
+      "archiveMD5sumsVerified": true,
+      "changedPayloadPathsSinceRepo1": [
+        "Library/MobileSubstrate/DynamicLibraries/Dtools.dylib"
+      ],
+      "verification": "通过完整包结构、校验和与 Mach-O 签名代码页检查"
+    },
+    {
+      "variant": "injector",
+      "package": "local.dtools.aweme",
+      "version": "41.1.1-16+repo2",
+      "file": "local.dtools.aweme_41.1.1-16+repo2_iphoneos-arm64e.deb",
+      "originalSHA256": "704f9930b029808d31e83d15b8149c447ddd6f81e0072645ea58d1009c401e9e",
+      "sha256": "d7e01166a8fa0b179f9f4b963985ccd8183879bd8ee9deb278c6783bdfbb703b",
+      "bytes": 5692100,
+      "payloadArchiveSHA256": "5ef2f8ccd545a13c14742458c365c085b58cfba8f93275de710f6a94f5abb604",
+      "payloadMatchesTestedBuild": true,
+      "archiveMD5sumsVerified": true,
+      "changedPayloadPathsSinceRepo1": [
+        "Library/MobileSubstrate/DynamicLibraries/Dtools.dylib"
+      ],
+      "verification": "通过完整包结构、校验和与 Mach-O 签名代码页检查；同一入口库在 iPhone 14 Pro / iOS 16.0.2 / 抖音 41.1.0（411016）真机验证"
+    }
+  ]
+}
