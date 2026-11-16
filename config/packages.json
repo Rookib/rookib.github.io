@@ -230,5 +230,29 @@
       "source": "Frida 官方网站仓库 frida/frida-website 的 _assets/favicon32.png；原始 PNG，许可见 docs/licenses/frida-website-MIT.txt",
       "sha256": "33e92f8401584673397b164b6c7f474e80f7fb62f733267f52d28cb7cd97eb97"
     }
+  },
+  "com.Dtool.arm64e": {
+    "name": "抖音 Dtools · Sileo 直装版",
+    "description": "抖音增强 v16，适用于 RootHide 的 Sileo 直装，包含完整插件与资源。",
+    "section": "工具",
+    "author": "Rookib",
+    "icon": {
+      "path": "assets/packages/com.Dtool.arm64e.png",
+      "kind": "repository-fallback",
+      "color": "#348CD1",
+      "source": "scripts/render-fallback-icons.py：源内通用软件包图标，非插件原图标"
+    }
+  },
+  "local.dtools.aweme": {
+    "name": "抖音 Dtools · 巨魔注入版",
+    "description": "抖音增强 v16 完整注入包，下载后交给白巨魔或普通巨魔注入器使用。",
+    "section": "工具",
+    "author": "Rookib",
+    "icon": {
+      "path": "assets/packages/local.dtools.aweme.png",
+      "kind": "repository-fallback",
+      "color": "#348CD1",
+      "source": "scripts/render-fallback-icons.py：源内通用软件包图标，非插件原图标"
+    }
   }
 }

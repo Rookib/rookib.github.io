@@ -11,6 +11,7 @@ import json
 from pathlib import Path
 import re
 import sys
+from urllib.parse import urlsplit
 
 from deb_archive import control, parse_control
 
@@ -51,6 +52,13 @@ def page(package, depiction):
             elif kind == 'DepictionTableTextView':
                 content.append('<p class="row"><span>' + html.escape(view['title']) +
                                '</span><strong>' + html.escape(view['text']) + '</strong></p>')
+            elif kind == 'DepictionTableButtonView':
+                action = view['action']
+                url = urlsplit(action)
+                if url.scheme != 'https' or not url.netloc or url.username or url.password:
+                    raise ValueError('Web depiction buttons require an HTTPS URL')
+                content.append('<p class="row"><a href="' + html.escape(action, quote=True) +
+                               '">' + html.escape(view['title']) + '</a></p>')
             elif kind == 'DepictionSeparatorView':
                 content.append('<hr>')
             else:
