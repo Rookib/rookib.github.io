@@ -238,9 +238,11 @@
     "author": "Rookib",
     "icon": {
       "path": "assets/packages/com.Dtool.arm64e.png",
-      "kind": "repository-fallback",
-      "color": "#348CD1",
-      "source": "scripts/render-fallback-icons.py：源内通用软件包图标，非插件原图标"
+      "kind": "upstream-original",
+      "source": "按用户要求使用抖音 App Store 官方图标（1142110895）；仅将 Apple 返回的 JPEG 转换为 PNG，未重绘。",
+      "sourceURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/17/e6/90/17e690fe-f519-2fb8-5128-37a11d12c54b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/512x512bb.jpg",
+      "sourcePage": "https://apps.apple.com/cn/app/id1142110895",
+      "sha256": "292f20653ee2675e6f4d0e52a791bc77b80b2b1ae7af5a4e44d766fa6767499d"
     }
   },
   "local.dtools.aweme": {
@@ -250,9 +252,11 @@
     "author": "Rookib",
     "icon": {
       "path": "assets/packages/local.dtools.aweme.png",
-      "kind": "repository-fallback",
-      "color": "#348CD1",
-      "source": "scripts/render-fallback-icons.py：源内通用软件包图标，非插件原图标"
+      "kind": "upstream-original",
+      "source": "按用户要求使用抖音 App Store 官方图标（1142110895）；仅将 Apple 返回的 JPEG 转换为 PNG，未重绘。",
+      "sourceURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/17/e6/90/17e690fe-f519-2fb8-5128-37a11d12c54b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/512x512bb.jpg",
+      "sourcePage": "https://apps.apple.com/cn/app/id1142110895",
+      "sha256": "292f20653ee2675e6f4d0e52a791bc77b80b2b1ae7af5a4e44d766fa6767499d"
     }
   }
 }

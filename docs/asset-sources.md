@@ -43,6 +43,6 @@
 | Frida 动态调试工具 | [Frida 官方网站图标](https://github.com/frida/frida-website/blob/main/_assets/favicon32.png)，保留 32×32 原始 PNG；[MIT 许可](licenses/frida-website-MIT.txt) |
 | 壁纸定位 | Apple 系统“照片”图标，来自 iOS 17.3.1 的 `MobileSlideShow.app/AppIcon60x60@2x.png`，已转换为网页和包管理器可显示的标准 PNG。 |
 
-Dtools v16 的 Sileo 直装版与巨魔注入版均使用已有源内通用图标（非插件原图标），由 `scripts/render-fallback-icons.py` 生成。
+Dtools v16 的 Sileo 直装版与巨魔注入版按用户要求使用[抖音 App Store 官方图标](https://apps.apple.com/cn/app/id1142110895)。仅将 Apple 返回的 JPEG 转为标准 PNG，未重绘；具体资源地址与 PNG SHA-256 见 `config/packages.json`。
 
 具体原包版本、成员路径及原图标 SHA-256 见 `config/packages.json`。通用图标由 `scripts/render-fallback-icons.py` 使用固定几何图形生成，可离线重新生成；本流程不会用通用图标替换已有原图标。
