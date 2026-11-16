@@ -65,5 +65,24 @@ class IndexFields(unittest.TestCase):
             self.validate(self.fields)
 
 
+class DownloadButtons(unittest.TestCase):
+    def render(self, action):
+        return metadata.page({'name': 'Dtools', 'icon': {'path': 'assets/packages/dtools.png'}},
+                             {'tabs': [{'tabname': '描述', 'views': [
+                                 {'class': 'DepictionTableButtonView', 'title': '下载 <DEB>',
+                                  'action': action}]}]})
+
+    def test_download_link_survives_web_rendering(self):
+        page = self.render('https://rookib.github.io/pool/Dtools.deb?a=1&b=2')
+        self.assertIn('href="https://rookib.github.io/pool/Dtools.deb?a=1&amp;b=2"', page)
+        self.assertIn('下载 &lt;DEB&gt;', page)
+
+    def test_non_https_and_credential_urls_are_rejected(self):
+        for action in ['javascript:alert(1)', '//example.com/file.deb',
+                       'https://user:pass@example.com/file.deb']:
+            with self.subTest(action=action), self.assertRaises(ValueError):
+                self.render(action)
+
+
 if __name__ == '__main__':
     unittest.main()

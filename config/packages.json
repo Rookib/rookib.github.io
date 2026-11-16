@@ -230,5 +230,33 @@
       "source": "Frida 官方网站仓库 frida/frida-website 的 _assets/favicon32.png；原始 PNG，许可见 docs/licenses/frida-website-MIT.txt",
       "sha256": "33e92f8401584673397b164b6c7f474e80f7fb62f733267f52d28cb7cd97eb97"
     }
+  },
+  "com.Dtool.arm64e": {
+    "name": "抖音 Dtools · Sileo 直装版",
+    "description": "抖音增强 v16，适用于 RootHide 的 Sileo 直装，包含完整插件与资源。",
+    "section": "工具",
+    "author": "Rookib",
+    "icon": {
+      "path": "assets/packages/com.Dtool.arm64e.png",
+      "kind": "upstream-original",
+      "source": "按用户要求使用抖音 App Store 官方图标（1142110895）；仅将 Apple 返回的 JPEG 转换为 PNG，未重绘。",
+      "sourceURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/17/e6/90/17e690fe-f519-2fb8-5128-37a11d12c54b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/512x512bb.jpg",
+      "sourcePage": "https://apps.apple.com/cn/app/id1142110895",
+      "sha256": "292f20653ee2675e6f4d0e52a791bc77b80b2b1ae7af5a4e44d766fa6767499d"
+    }
+  },
+  "local.dtools.aweme": {
+    "name": "抖音 Dtools · 巨魔注入版",
+    "description": "抖音增强 v16 完整注入包，下载后交给白巨魔或普通巨魔注入器使用。",
+    "section": "工具",
+    "author": "Rookib",
+    "icon": {
+      "path": "assets/packages/local.dtools.aweme.png",
+      "kind": "upstream-original",
+      "source": "按用户要求使用抖音 App Store 官方图标（1142110895）；仅将 Apple 返回的 JPEG 转换为 PNG，未重绘。",
+      "sourceURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/17/e6/90/17e690fe-f519-2fb8-5128-37a11d12c54b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/512x512bb.jpg",
+      "sourcePage": "https://apps.apple.com/cn/app/id1142110895",
+      "sha256": "292f20653ee2675e6f4d0e52a791bc77b80b2b1ae7af5a4e44d766fa6767499d"
+    }
   }
 }

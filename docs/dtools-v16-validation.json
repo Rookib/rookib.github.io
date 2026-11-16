@@ -1,0 +1,36 @@
+{
+  "functionalVersion": "v16",
+  "publicationDate": "2026-11-16",
+  "packages": [
+    {
+      "variant": "sileo",
+      "originalVersion": "41.1.1-16+sileo1",
+      "version": "41.1.1-16+sileo1+repo1",
+      "file": "com.Dtool.arm64e_41.1.1-16+sileo1+repo1_iphoneos-arm64e.deb",
+      "originalSHA256": "61a4f028e2c3978adef20b388334b4a756659ebba8e1938d1e7ff97fa647029c",
+      "sha256": "d2cd70112d10f4a083fc17f9248a2e5034c6575dd72d75c77970114594212d3d",
+      "bytes": 5667564,
+      "payloadArchiveSHA256": "f0f5c61a38d666160f261210161241819cdf1e3bf8e73ae83dbec779cdb18252",
+      "payloadIdenticalToV16": true,
+      "depends": "firmware (>= 16.0), roothide, ellekit | org.coolstar.libhooker | mobilesubstrate",
+      "archiveMD5sumsVerified": true,
+      "installedFiles": 17,
+      "nativeLibraries": 4
+    },
+    {
+      "variant": "injector",
+      "originalVersion": "41.1.1-16",
+      "version": "41.1.1-16+repo1",
+      "file": "local.dtools.aweme_41.1.1-16+repo1_iphoneos-arm64e.deb",
+      "originalSHA256": "f75765557920d24c7a65a8febf23693a50e26d625cb07573218f0d4a852ec7ec",
+      "sha256": "5c4e4ce6e4bc98ca56d4dcdfc8f72690f35b6b0a77b7c7d924d91ae381f0f525",
+      "bytes": 5688218,
+      "payloadArchiveSHA256": "0613e2678fd67b7f83b522cb70fa2f8414c779ff92682bfd5c9bcd161a74df55",
+      "payloadIdenticalToV16": true,
+      "depends": "firmware (>= 16.0)",
+      "archiveMD5sumsVerified": true,
+      "installedFiles": 6,
+      "nativeLibraries": 3
+    }
+  ]
+}

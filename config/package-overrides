@@ -38,6 +38,14 @@ com.25mao.leftPan Maintainer Rookib
 com.25mao.leftPan Icon https://rookib.github.io/assets/packages/com.25mao.leftPan.png
 com.25mao.leftPan Depiction https://rookib.github.io/depictions/com.25mao.leftPan/
 com.25mao.leftPan SileoDepiction https://rookib.github.io/depictions/com.25mao.leftPan.json
+com.Dtool.arm64e Name 抖音 Dtools · Sileo 直装版
+com.Dtool.arm64e Description 抖音增强 v16，适用于 RootHide 的 Sileo 直装，包含完整插件与资源。
+com.Dtool.arm64e Section 工具
+com.Dtool.arm64e Author Rookib
+com.Dtool.arm64e Maintainer Rookib
+com.Dtool.arm64e Icon https://rookib.github.io/assets/packages/com.Dtool.arm64e.png
+com.Dtool.arm64e Depiction https://rookib.github.io/depictions/com.Dtool.arm64e/
+com.Dtool.arm64e SileoDepiction https://rookib.github.io/depictions/com.Dtool.arm64e.json
 com.eason.fivegadvanced Name Hidden VPN
 com.eason.fivegadvanced Description 每次连接 VPN 时显示系统原生标识约 3 秒，随后隐藏并恢复网络颜色；重启 SpringBoard 后同样生效，适配 iOS 16–17。
 com.eason.fivegadvanced Section 工具
@@ -110,6 +118,14 @@ io.github.suckdrygod.touchdan Maintainer Rookib
 io.github.suckdrygod.touchdan Icon https://rookib.github.io/assets/packages/io.github.suckdrygod.touchdan.png
 io.github.suckdrygod.touchdan Depiction https://rookib.github.io/depictions/io.github.suckdrygod.touchdan/
 io.github.suckdrygod.touchdan SileoDepiction https://rookib.github.io/depictions/io.github.suckdrygod.touchdan.json
+local.dtools.aweme Name 抖音 Dtools · 巨魔注入版
+local.dtools.aweme Description 抖音增强 v16 完整注入包，下载后交给白巨魔或普通巨魔注入器使用。
+local.dtools.aweme Section 工具
+local.dtools.aweme Author Rookib
+local.dtools.aweme Maintainer Rookib
+local.dtools.aweme Icon https://rookib.github.io/assets/packages/local.dtools.aweme.png
+local.dtools.aweme Depiction https://rookib.github.io/depictions/local.dtools.aweme/
+local.dtools.aweme SileoDepiction https://rookib.github.io/depictions/local.dtools.aweme.json
 local.qqcompact Name QQ 紧凑布局
 local.qqcompact Description QQ 9.3.50 紧凑布局，默认缩放 85%，支持多开及 HBID 修改标识符，保留版本和程序校验。
 local.qqcompact Section 工具
