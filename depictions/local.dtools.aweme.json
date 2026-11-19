@@ -14,7 +14,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- 提供抖音主页修复、访客数量设置、认证显示与专属 ID 自定义，保留专属 ID 皇冠和原插件倍速功能。\n\n- 使用 v16 稳定程序，主插件、布局库及所需资源均已包含。\n\n- 本地功能不再依赖原授权服务器响应，保留本地文件完整性检查与账号切换清理。\n\n- 浮动面板的专属 ID 支持长按切换八种铭牌样式。",
+          "markdown": "- 提供抖音主页修复、访客数量设置、认证显示与专属 ID 自定义。\n\n- 本次适配抖音 41.2.0（412021），修复认证图标与文案、抖音号留白和二维码排布。\n\n- 小丑模式隐藏私密作品入口并收起原 60 点占位，关闭后恢复本人入口。\n\n- 使用 v16 基线，包含完整主插件、布局库、资源及已有铭牌样式功能。",
           "useSpacing": true,
           "useRawFormat": false
         },
@@ -25,7 +25,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- 适用于支持 DEB 导入的白巨魔与普通巨魔 App 注入器，最低 iOS 16.0。此条目用于下载并注入，不是 Sileo 直装版。\n\n- 支持抖音自定义 Bundle ID；原生主页布局修复按已适配的宿主构建启用。本轮已验证抖音 41.1.0（411016），其他抖音/iOS 版本仍需适配验证。",
+          "markdown": "- 本次完整注入包适配抖音 **41.2.0（构建 412021）**，支持自定义 Bundle ID。\n\n- 适用于支持 DEB 导入的白巨魔与普通巨魔 App 注入器，最低 iOS 16.0。\n\n- 包内携带 412021 布局库。使用旧版抖音时，可在历史版本中选择对应的完整包。",
           "useSpacing": true,
           "useRawFormat": false
         },
@@ -43,7 +43,7 @@
         {
           "class": "DepictionTableButtonView",
           "title": "下载完整注入包",
-          "action": "https://rookib.github.io/pool/local.dtools.aweme_41.1.1-16+repo2_iphoneos-arm64e.deb",
+          "action": "https://rookib.github.io/pool/local.dtools.aweme_41.1.1-16+repo3_iphoneos-arm64e.deb",
           "openExternal": true
         },
         {
@@ -59,14 +59,19 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- 本次完整注入版在 iPhone 14 Pro / iOS 16.0.2 / 抖音 41.1.0（411016）验证了长按、样式保存、头像挂件和光效联动。\n\n- 验证了新铭牌首次选择可用及重启后保留，测试期间使用了现有 App。\n\n- iOS 26 专属双击效果需要对应系统。联网资料刷新、媒体下载及 AI 接口仍需要各自的服务。",
+          "markdown": "- 完整注入版已在 iPhone 14 Pro / iOS 16.0.2 / 抖音 41.2.0（412021）完成两次冷启动复验。\n\n- 已验证认证图标与文案、抖音号左对齐、二维码跟随文字、私密作品入口及高度收起。\n\n- 关闭伪装后本人私密入口恢复，重新开启后再次隐藏，临时测试设置已还原。\n\n- 完整包结构、文件校验和与代码页检查均通过。",
           "useSpacing": true,
           "useRawFormat": false
         },
         {
           "class": "DepictionTableTextView",
           "title": "当前版本",
-          "text": "41.1.1-16+repo2"
+          "text": "41.1.1-16+repo3"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "适配抖音版本",
+          "text": "41.2.0（412021）"
         },
         {
           "class": "DepictionTableTextView",
@@ -84,6 +89,18 @@
       "class": "DepictionStackView",
       "tabname": "更新",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "41.1.1-16+repo3 · 2026-11-19",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 新增抖音 41.2.0（412021）适配。\n\n- 恢复认证图标和文案，修复抖音号留白及二维码位置。\n\n- 修复私密作品入口隐藏后的 60 点占位，伪装开关切换时同步恢复或收起。",
+          "useSpacing": true,
+          "useRawFormat": false
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "41.1.1-16+repo2 · 2026-11-16",

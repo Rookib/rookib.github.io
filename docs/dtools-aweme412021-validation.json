@@ -1,0 +1,52 @@
+{
+  "functionalVersion": "v16",
+  "publicationDate": "2026-11-19",
+  "adaptedDouyinVersion": "41.2.0",
+  "adaptedDouyinBuild": "412021",
+  "coreUUID": "cc3b646814e43c7fa8708f1eb5f4adeb",
+  "packages": [
+    {
+      "variant": "sileo",
+      "package": "com.Dtool.arm64e",
+      "version": "41.1.1-16+sileo1+repo3",
+      "file": "com.Dtool.arm64e_41.1.1-16+sileo1+repo3_iphoneos-arm64e.deb",
+      "originalSHA256": "4427cb25b2f62dc8481b913a35134cbcc885f7ba9db49e7a57e0a7920b3440f6",
+      "sha256": "e8ecaa997da7e628e9c72e22a6fecd30b95afb12ecd272ac39c75d59b3e4ee5c",
+      "bytes": 5671342,
+      "payloadArchiveSHA256": "139a62abc77a9e330be59811d6fbfc4cb085ef67cf0614e0f9e4c1d36f705f63",
+      "payloadMatchesTestedBuild": true,
+      "archiveMD5sumsVerified": true,
+      "adaptedDouyinVersion": "41.2.0",
+      "adaptedDouyinBuild": "412021",
+      "deviceVerification": "构建、包结构、完整性和代码页检查通过"
+    },
+    {
+      "variant": "injector",
+      "package": "local.dtools.aweme",
+      "version": "41.1.1-16+repo3",
+      "file": "local.dtools.aweme_41.1.1-16+repo3_iphoneos-arm64e.deb",
+      "originalSHA256": "4849b0db4d477c670edc5a1f61ee847e1139964e92492faadd6bc3c83cfc62e0",
+      "sha256": "374f47de4cb3a8a190a367efb3e8270dd663820e025dc65f85732302d624add0",
+      "bytes": 5691922,
+      "payloadArchiveSHA256": "2236de947f0a52a6454c8038d5179a4777f468032ea25afec59a21f8630c50d0",
+      "payloadMatchesTestedBuild": true,
+      "archiveMD5sumsVerified": true,
+      "adaptedDouyinVersion": "41.2.0",
+      "adaptedDouyinBuild": "412021",
+      "deviceVerification": "14 Pro / iOS 16.0.2 / 完整注入版两次冷启动、伪装开关往返及主页布局复验通过"
+    }
+  ],
+  "deviceValidation": {
+    "updated_package_loaded_after_cold_start": true,
+    "correct_layout_build": true,
+    "compiled_sizing_wrapper_loaded": true,
+    "certification_row_visible": true,
+    "handle_left_position_16_points": true,
+    "qr_button_follows_handle": true,
+    "private_entry_hidden_during_preview": true,
+    "private_entry_height_removed": true,
+    "private_entry_restored_with_preview_off": true,
+    "private_entry_hidden_after_reenable": true,
+    "temporary_preference_override_removed": true
+  }
+}
