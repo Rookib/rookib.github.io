@@ -233,7 +233,7 @@
   },
   "com.Dtool.arm64e": {
     "name": "抖音 Dtools · Sileo 直装版",
-    "description": "抖音增强 v16，适用于 RootHide 的 Sileo 直装，包含完整插件与资源。",
+    "description": "抖音增强 v16，适配抖音 41.2.0（412021），修复认证、抖音号留白及私密作品占位，Sileo 隐根完整直装包。",
     "section": "工具",
     "author": "Rookib",
     "icon": {
@@ -247,7 +247,7 @@
   },
   "local.dtools.aweme": {
     "name": "抖音 Dtools · 巨魔注入版",
-    "description": "抖音增强 v16 完整注入包，下载后交给白巨魔或普通巨魔注入器使用。",
+    "description": "抖音增强 v16，适配抖音 41.2.0（412021），修复认证、抖音号留白及私密作品占位，白巨魔与普通巨魔完整注入包。",
     "section": "工具",
     "author": "Rookib",
     "icon": {
